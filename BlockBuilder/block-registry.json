@@ -42,6 +42,30 @@
         "blocks-interactive.css"
       ],
       "previewFile": null
+    },
+    "HeroOverlayCentered": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "HeroOverlayCentered",
+      "type": "HeroOverlayCentered",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroOverlayCentered.schema.json"
+    },
+    "FeatureImageChecklist": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "FeatureImageChecklist",
+      "type": "FeatureImageChecklist",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
     }
   },
   "assets": {
@@ -64,6 +88,28 @@
       "group": "Accordions",
       "blockType": "FAQ",
       "smartMeta": true
+    },
+    "Blocks_HeroOverlayCentered": {
+      "group": "Blocks",
+      "blockType": "HeroOverlayCentered",
+      "smartMeta": true,
+      "name": "HeroOverlayCentered",
+      "type": "HeroOverlayCentered",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroOverlayCentered.schema.json"
+    },
+    "Blocks_FeatureImageChecklist": {
+      "group": "Blocks",
+      "blockType": "FeatureImageChecklist",
+      "smartMeta": true,
+      "name": "FeatureImageChecklist",
+      "type": "FeatureImageChecklist",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
     }
   }
 }

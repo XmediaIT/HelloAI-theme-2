@@ -1,0 +1,40 @@
+{
+  "image": {
+    "src": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Blue sports car in the desert",
+    "mode": "suggest"
+  },
+  "promoCard": {
+    "icon": "fa-shield-halved",
+    "title": "Best Programs For Everyone"
+  },
+  "content": {
+    "title": "We Provide Best Solutions",
+    "eyebrow": "Here Is an Example",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "button": {
+      "label": "Read More",
+      "url": "#",
+      "target": "_self"
+    }
+  },
+  "listItems": [
+    {
+      "icon": "fa-check",
+      "text": "Largest provider, with more patrols in more places"
+    },
+    {
+      "icon": "fa-check",
+      "text": "You get 24/7 roadside assistance"
+    },
+    {
+      "icon": "fa-check",
+      "text": "We fix 4 out of 5 cars at the roadside"
+    }
+  ],
+  "callInfo": {
+    "icon": "fa-phone",
+    "label": "Call anytime",
+    "phone": "+035 8566324 4545"
+  }
+}
