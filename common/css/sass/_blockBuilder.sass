@@ -328,21 +328,22 @@
 
 .EasyDNNTheme_HelloAI-theme-2
   .eds-heroFeatureSplitStatsBlock
-    margin-top: 28px
+    margin-top: 48px
 
     &__inner
       padding: 0
 
     &__hero
       position: relative
-      min-height: 410px
+      min-height: 500px
       height: 100%
 
     &__heroImage
       width: 100%
       height: 100%
-      min-height: 410px
+      min-height: 500px
       object-fit: cover
+      object-position: center center
 
     &__heroOverlay
       position: absolute
@@ -356,111 +357,120 @@
       display: flex
       flex-direction: column
       justify-content: center
-      padding: 38px 36px
+      padding: 64px 64px 58px
       color: var(--eds-whiteColor)
 
     &__title
       margin: 0
       color: var(--eds-whiteColor)
-      font-size: 30px
-      line-height: 1.2
-      max-width: 620px
+      font-size: 64px
+      line-height: 1.02
+      max-width: 860px
+      letter-spacing: -.01em
 
       span
         color: var(--eds-primaryColor)
 
     &__text
-      margin: 24px 0 0
+      margin: 28px 0 0
       color: var(--eds-whiteColor)
-      max-width: 620px
-      font-size: 15px
-      line-height: 1.5
+      max-width: 690px
+      font-size: 18px
+      line-height: 1.45
 
     &__panel
-      min-height: 410px
+      min-height: 500px
       height: 100%
       background: var(--eds-panelBg)
-      border-radius: 10px 10px 0 0
-      padding: 34px 30px 0
+      border-radius: 12px 12px 0 0
+      padding: 54px 46px 0
+      box-shadow: 0 20px 44px rgba(0, 0, 0, .16)
+      display: flex
+      flex-direction: column
+
+    &__features
+      row-gap: 34px
 
     &__featureItem
       display: grid
-      grid-template-columns: 58px 1fr
-      gap: 14px
+      grid-template-columns: 62px 1fr
+      gap: 16px
+      align-content: start
 
     &__featureIcon
-      width: 58px
-      height: 58px
+      width: 62px
+      height: 62px
       border-radius: 50%
       background: var(--eds-primaryColor)
       color: var(--eds-whiteColor)
       display: inline-flex
       align-items: center
       justify-content: center
-      font-size: 26px
+      font-size: 30px
       margin-top: 2px
 
     &__featureTitle
       margin: 0
       color: var(--eds-darkColor)
-      font-size: 15px
-      line-height: 1.15
+      font-size: 18px
+      line-height: 1.2
       text-transform: uppercase
 
     &__featureText
-      margin: 10px 0 0
+      margin: 14px 0 0
       color: var(--eds-mutedText)
-      font-size: 14px
-      line-height: 1.5
+      font-size: 16px
+      line-height: 1.55
 
     &__cta
-      margin-top: 26px
+      margin-top: auto
+      padding-top: 34px
       text-align: right
 
       .eds_contactButton
-        min-width: 320px
+        min-width: 360px
         height: 74px
 
     &__bottom
       background: var(--eds-whiteColor)
 
     &__contact
-      min-height: 166px
+      min-height: 172px
       border-top: 1px solid var(--eds-borderColor)
       border-right: 1px solid var(--eds-borderColor)
-      border-bottom: 4px solid var(--eds-bottomBorderAccent)
+      border-bottom: 3px solid var(--eds-bottomBorderAccent)
       display: flex
       align-items: center
-      gap: 18px
-      padding: 22px 30px
+      gap: 24px
+      padding: 24px 40px
 
     &__contactIcon
-      width: 74px
-      height: 74px
+      width: 88px
+      height: 88px
       border-radius: 50%
       background: var(--eds-softContrast)
       color: var(--eds-primaryColor)
       display: inline-flex
       align-items: center
       justify-content: center
-      font-size: 30px
+      font-size: 38px
 
     &__contactText
       display: flex
       flex-direction: column
-      gap: 4px
+      gap: 6px
       color: var(--eds-blackColor)
 
       strong
         color: var(--eds-primaryColor)
-        font-size: 17px
+        font-size: 20px
 
       span
-        font-size: 14px
+        font-size: 18px
         font-weight: 700
 
     &__stats
-      min-height: 166px
+      min-height: 172px
       border-top: 1px solid var(--eds-borderColor)
       display: grid
       grid-template-columns: 1fr 1fr
@@ -470,15 +480,15 @@
       flex-direction: column
       justify-content: center
       align-items: center
-      padding: 16px 14px
+      padding: 20px 20px
 
       &:first-child
         border-right: 1px solid var(--eds-borderColor)
 
     &__statValue
       margin: 0
-      font-size: 56px
-      line-height: .95
+      font-size: 104px
+      line-height: .9
       font-weight: 700
       color: var(--eds-primaryColor)
 
@@ -488,18 +498,52 @@
     &__statLabel
       margin-top: 10px
       color: var(--eds-darkColor)
-      font-size: 15px
+      font-size: 16px
       line-height: 1.2
       font-weight: 700
       text-transform: uppercase
 
-  @media (max-width: 1199.98px)
+  @media (max-width: 1399.98px)
     .eds-heroFeatureSplitStatsBlock
       &__title
-        font-size: 26px
+        font-size: 54px
+
+      &__text
+        font-size: 17px
+
+      &__panel
+        padding: 48px 34px 0
+
+      &__featureText
+        font-size: 16px
+
+      &__cta .eds_contactButton
+        min-width: 320px
+
+      &__statValue
+        font-size: 88px
+
+  @media (max-width: 1199.98px)
+    .eds-heroFeatureSplitStatsBlock
+      &__hero,
+      &__heroImage,
+      &__panel
+        min-height: 440px
+
+      &__heroContent
+        padding: 46px 42px
+
+      &__title
+        font-size: 46px
+
+      &__text
+        max-width: 560px
 
       &__panel
         border-radius: 0
+
+      &__featureTitle
+        font-size: 17px
 
       &__contact
         border-right: 0
@@ -508,23 +552,36 @@
         border-top: 0
         border-left: 1px solid var(--eds-borderColor)
 
+      &__statValue
+        font-size: 80px
+
   @media (max-width: 991.98px)
     .eds-heroFeatureSplitStatsBlock
       &__hero,
       &__heroImage,
       &__panel
-        min-height: 350px
+        min-height: 390px
 
       &__title
-        font-size: 24px
+        font-size: 36px
+
+      &__text
+        font-size: 16px
 
       &__heroContent
-        padding: 24px 20px
+        padding: 36px 28px
 
       &__panel
-        padding: 22px 18px 0
+        padding: 32px 24px 0
+
+      &__features
+        row-gap: 28px
 
       &__featureTitle
+        font-size: 16px
+
+      &__featureText
+        margin-top: 10px
         font-size: 15px
 
       &__cta
@@ -539,7 +596,7 @@
 
       &__contact,
       &__stats
-        min-height: 150px
+        min-height: 156px
 
       &__contact
         border-right: 0
@@ -548,10 +605,13 @@
       &__stats
         border-left: 0
 
+      &__statValue
+        font-size: 72px
+
   @media (max-width: 767.98px)
     .eds-heroFeatureSplitStatsBlock
       &__title
-        font-size: 22px
+        font-size: 30px
 
       &__text
         font-size: 15px
@@ -565,7 +625,7 @@
         font-size: 22px
 
       &__featureTitle
-        font-size: 14px
+        font-size: 15px
 
       &__contact
         padding: 16px
@@ -575,8 +635,11 @@
         height: 56px
         font-size: 24px
 
+      &__contactText strong
+        font-size: 17px
+
       &__contactText span
-        font-size: 15px
+        font-size: 16px
 
       &__stats
         grid-template-columns: 1fr
@@ -587,4 +650,4 @@
           border-bottom: 1px solid var(--eds-borderColor)
 
       &__statValue
-        font-size: 44px
+        font-size: 56px
