@@ -18,6 +18,7 @@
   --eds-headerMuted: #bcbcbc;
   --eds-headerIconBg: #f3f3f3;
   --eds-whiteColor: #ffffff;
+  --eds-heroOverlayColor: rgba(255, 100, 60, .82);
 }
 
 body {
@@ -570,5 +571,133 @@ a {
 
   .EasyDNNTheme_HelloAI-theme-2 .eds_footerUtilityNav {
     gap: 14px;
+  }
+}
+
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock {
+  position: relative;
+  min-height: 640px;
+  overflow: hidden;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__media {
+  position: absolute;
+  inset: 0;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--eds-heroOverlayColor);
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
+  position: relative;
+  z-index: 1;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__content {
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto;
+  color: var(--eds-whiteColor);
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__eyebrow {
+  margin: 0;
+  color: var(--eds-darkColor);
+  font-family: var(--eds_headingsFont);
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__divider {
+  display: inline-block;
+  width: 110px;
+  height: 4px;
+  background: var(--eds-whiteColor);
+  margin: 16px auto 30px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__title {
+  margin: 0;
+  color: var(--eds-whiteColor);
+  font-family: var(--eds_headingsFont);
+  font-size: 82px;
+  line-height: 0.95;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__actions {
+  margin-top: 44px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineLight {
+  min-width: 260px;
+  height: 72px;
+  background: transparent;
+  border: 4px solid var(--eds-whiteColor);
+  color: var(--eds-darkColor);
+  font-size: 28px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineLight:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineLight:focus-visible {
+  background: var(--eds-whiteColor);
+  color: var(--eds-primaryColor);
+}
+
+@media (max-width: 991.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock,
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
+    min-height: 520px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__title {
+    font-size: 52px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineLight {
+    min-width: 220px;
+    height: 60px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock,
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
+    min-height: 460px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__eyebrow {
+    font-size: 18px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__title {
+    font-size: 38px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__actions {
+    margin-top: 28px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineLight {
+    min-width: 190px;
+    height: 52px;
+    font-size: 18px;
   }
 }

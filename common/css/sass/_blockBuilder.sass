@@ -1,1 +1,105 @@
-/* BlockBuilder styling should be added only when blocks are implemented. */
+.EasyDNNTheme_HelloAI-theme-2
+  .eds-heroOverlayCenteredBlock
+    position: relative
+    min-height: 640px
+    overflow: hidden
+
+    &__media
+      position: absolute
+      inset: 0
+
+    &__image
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+    &__overlay
+      position: absolute
+      inset: 0
+      background: var(--eds-heroOverlayColor)
+
+    &__inner
+      position: relative
+      z-index: 1
+      min-height: 640px
+      display: flex
+      align-items: center
+      justify-content: center
+
+    &__content
+      text-align: center
+      max-width: 980px
+      margin: 0 auto
+      color: var(--eds-whiteColor)
+
+    &__eyebrow
+      margin: 0
+      color: var(--eds-darkColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 22px
+      line-height: 1.1
+      font-weight: 700
+
+    &__divider
+      display: inline-block
+      width: 110px
+      height: 4px
+      background: var(--eds-whiteColor)
+      margin: 16px auto 30px
+
+    &__title
+      margin: 0
+      color: var(--eds-whiteColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 82px
+      line-height: .95
+      font-weight: 700
+      text-transform: uppercase
+
+    &__actions
+      margin-top: 44px
+
+  .eds_contactButton--outlineLight
+    min-width: 260px
+    height: 72px
+    background: transparent
+    border: 4px solid var(--eds-whiteColor)
+    color: var(--eds-darkColor)
+    font-size: 28px
+
+    &:hover,
+    &:focus-visible
+      background: var(--eds-whiteColor)
+      color: var(--eds-primaryColor)
+
+  @media (max-width: 991.98px)
+    .eds-heroOverlayCenteredBlock,
+    .eds-heroOverlayCenteredBlock__inner
+      min-height: 520px
+
+    .eds-heroOverlayCenteredBlock__title
+      font-size: 52px
+
+    .eds_contactButton--outlineLight
+      min-width: 220px
+      height: 60px
+      font-size: 22px
+
+  @media (max-width: 767.98px)
+    .eds-heroOverlayCenteredBlock,
+    .eds-heroOverlayCenteredBlock__inner
+      min-height: 460px
+
+    .eds-heroOverlayCenteredBlock__eyebrow
+      font-size: 18px
+
+    .eds-heroOverlayCenteredBlock__title
+      font-size: 38px
+
+    .eds-heroOverlayCenteredBlock__actions
+      margin-top: 28px
+
+    .eds_contactButton--outlineLight
+      min-width: 190px
+      height: 52px
+      font-size: 18px
