@@ -958,16 +958,18 @@ h1, h2, h3, h4, h5, h6 {
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__featureText {
   margin: 14px 0 0;
   color: var(--eds-mutedText);
-  font-size: 16px;
-  line-height: 1.55;
+  font-size: 18px;
+  line-height: 1.6;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__cta {
   margin-top: auto;
   padding-top: 34px;
-  text-align: right;
+  text-align: center;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__cta .eds_contactButton {
-  min-width: 360px;
+  width: 100%;
+  max-width: 420px;
+  min-width: 0;
   height: 74px;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__bottom {
@@ -1119,10 +1121,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__cta {
-    text-align: left;
+    text-align: center;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__cta .eds_contactButton {
-    min-width: 280px;
+    width: 100%;
+    max-width: 320px;
+    min-width: 0;
     height: 62px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__bottom {
