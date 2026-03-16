@@ -141,13 +141,13 @@
       align-items: center
       justify-content: center
       color: var(--eds-overlayInkStrong)
-      font-size: 34px
+      font-size: 22px
 
     &__promoTitle
       margin: 14px 0 0
       color: var(--eds-whiteColor)
       font-family: var(--eds_headingsFont)
-      font-size: 54px
+      font-size: 24px
       line-height: 1.02
       text-transform: uppercase
 
@@ -156,15 +156,15 @@
 
     &__title
       margin: 0
-      font-size: 58px
-      line-height: .98
+      font-size: 32px
+      line-height: 1.05
       text-transform: uppercase
 
     &__eyebrow
       margin: 18px 0 0
       color: var(--eds-primaryColor)
       font-family: var(--eds_headingsFont)
-      font-size: 40px
+      font-size: 20px
       line-height: 1
       text-transform: uppercase
       font-weight: 600
@@ -179,7 +179,7 @@
     &__text
       margin: 0
       color: var(--eds-mutedText)
-      font-size: 36px
+      font-size: 16px
       line-height: 1.35
 
     &__list
@@ -194,14 +194,14 @@
       align-items: center
       gap: 12px
       color: var(--eds-darkColor)
-      font-size: 30px
+      font-size: 17px
       line-height: 1.25
       font-weight: 600
 
     &__listIcon
-      width: 34px
-      height: 34px
-      flex: 0 0 34px
+      width: 30px
+      height: 30px
+      flex: 0 0 30px
       border-radius: 50%
       background: var(--eds-softContrast)
       color: var(--eds-primaryColor)
@@ -223,26 +223,26 @@
       gap: 12px
 
     &__callIcon
-      width: 62px
-      height: 62px
+      width: 52px
+      height: 52px
       border-radius: 50%
       background: var(--eds-softContrast)
       color: var(--eds-primaryColor)
       display: inline-flex
       align-items: center
       justify-content: center
-      font-size: 28px
+      font-size: 20px
 
     &__callLabel
       color: var(--eds-primaryColor)
       font-family: var(--eds_headingsFont)
-      font-size: 38px
+      font-size: 20px
       line-height: 1
       font-weight: 600
 
     &__callText
       color: var(--eds-darkColor)
-      font-size: 28px
+      font-size: 14px
       line-height: 1.2
       font-weight: 600
 
@@ -252,6 +252,8 @@
     background: transparent
     border: 2px solid var(--eds-borderColor)
     color: var(--eds-darkColor)
+    font-size: 16px
+    letter-spacing: .02em
 
     &:hover,
     &:focus-visible
@@ -278,25 +280,30 @@
       top: 16px
 
     .eds-featureImageChecklistBlock__title
-      font-size: 42px
-
-    .eds-featureImageChecklistBlock__eyebrow
-      font-size: 30px
-
-    .eds-featureImageChecklistBlock__text
-      font-size: 22px
-
-    .eds-featureImageChecklistBlock__listItem
-      font-size: 20px
-
-    .eds-featureImageChecklistBlock__callLabel
       font-size: 28px
 
+    .eds-featureImageChecklistBlock__eyebrow
+      font-size: 17px
+
+    .eds-featureImageChecklistBlock__text
+      font-size: 15px
+
+    .eds-featureImageChecklistBlock__listItem
+      font-size: 16px
+
+    .eds-featureImageChecklistBlock__callLabel
+      font-size: 24px
+
     .eds-featureImageChecklistBlock__callText
-      font-size: 20px
+      font-size: 14px
 
     .eds_contactButton--outlineLight
       display: inline-flex
+
+    .eds_contactButton--outlineNeutral
+      min-width: 210px
+      height: 56px
+      font-size: 15px
 
   @media (max-width: 575.98px)
     .eds-featureImageChecklistBlock__promoCard
@@ -306,10 +313,10 @@
       margin: 14px auto 0
 
     .eds-featureImageChecklistBlock__title
-      font-size: 34px
+      font-size: 24px
 
     .eds-featureImageChecklistBlock__eyebrow
-      font-size: 24px
+      font-size: 16px
 
     .eds-featureImageChecklistBlock__actions
       gap: 18px
