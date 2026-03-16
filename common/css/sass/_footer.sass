@@ -1,1 +1,138 @@
-/* Intentionally empty starter. Build footer from scratch from the mockup. */
+.EasyDNNTheme_HelloAI-theme-2
+  .eds_siteFooter
+    background: var(--eds-footerBg)
+    color: var(--eds-footerText)
+
+  .eds_footerContainer
+    max-width: 1920px
+
+  .eds_footerTop,
+  .eds_footerBottom
+    display: flex
+    align-items: center
+
+  .eds_footerTop
+    min-height: 150px
+    border-bottom: 1px solid var(--eds-footerDivider)
+
+  .eds_footerTopZone
+    min-height: 150px
+    display: flex
+    align-items: center
+
+  .eds_footerLogoZone
+    width: 340px
+    flex: 0 0 340px
+    border-right: 1px solid var(--eds-footerDivider)
+
+  .eds_footerLogo img
+    max-width: 267px
+    width: 100%
+    height: auto
+
+  .eds_footerNavZone
+    flex: 1 1 auto
+    justify-content: center
+    padding: 0 36px
+
+  .eds_footerNav
+    display: flex
+    flex-wrap: nowrap
+    gap: 28px
+
+    a
+      color: var(--eds-footerText)
+      font-family: var(--eds_headingsFont)
+      font-size: 16px
+      line-height: 1
+      text-transform: uppercase
+      white-space: nowrap
+
+      &:hover,
+      &.is-active
+        color: var(--eds-primaryColor)
+
+  .eds_footerSocialZone
+    width: 330px
+    flex: 0 0 330px
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    gap: 14px
+
+  .eds_footerSocialLabel
+    font-family: var(--eds_headingsFont)
+    font-size: 16px
+    line-height: 1
+    color: var(--eds-primaryColor)
+
+  .eds_footerSocialIcons
+    display: flex
+    align-items: center
+    gap: 28px
+
+    a
+      color: var(--eds-footerMuted)
+      font-size: 14px
+      line-height: 1
+
+      &:hover
+        color: var(--eds-whiteColor)
+
+  .eds_footerBottom
+    min-height: 86px
+    justify-content: space-between
+    gap: 20px
+
+  .eds_footerUtilityNav
+    display: flex
+    flex-wrap: wrap
+    gap: 24px
+
+    a
+      color: var(--eds-footerSmallText)
+      font-size: 14px
+      line-height: 1
+      font-family: var(--eds_headingsFont)
+
+      &:hover
+        color: var(--eds-whiteColor)
+
+  .eds_footerCopyright
+    color: var(--eds-footerSmallText)
+    font-size: 14px
+    font-family: var(--eds_headingsFont)
+
+  @media (max-width: 991.98px)
+    .eds_footerTop,
+    .eds_footerBottom
+      flex-direction: column
+      align-items: flex-start
+
+    .eds_footerTop
+      padding: 20px 0
+      gap: 14px
+
+    .eds_footerTopZone
+      width: 100%
+      min-height: 0
+
+    .eds_footerLogoZone
+      width: 100%
+      flex: 0 0 auto
+      border-right: 0
+
+    .eds_footerNavZone
+      padding: 0
+      justify-content: flex-start
+
+    .eds_footerNav
+      flex-wrap: wrap
+      gap: 14px 18px
+
+    .eds_footerBottom
+      min-height: 0
+      padding: 16px 0 22px
+
+    .eds_footerUtilityNav
+      gap: 14px

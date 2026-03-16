@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "HeroOverlayCentered.schema.json",
+  "title": "HeroOverlayCentered",
+  "type": "object",
+  "required": ["image", "eyebrow", "title", "button"],
+  "properties": {
+    "image": {
+      "type": "object",
+      "required": ["src", "alt", "mode"],
+      "properties": {
+        "src": { "type": "string", "minLength": 1 },
+        "alt": { "type": "string", "minLength": 1 },
+        "mode": {
+          "type": "string",
+          "enum": ["keep", "suggest", "library", "generate", "manual"]
+        }
+      }
+    },
+    "eyebrow": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "button": {
+      "type": "object",
+      "required": ["label", "url"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "target": { "type": "string", "enum": ["_self", "_blank"] }
+      }
+    },
+    "overlay": {
+      "type": "object",
+      "properties": {
+        "tone": {
+          "type": "string",
+          "enum": ["primary", "dark", "custom"],
+          "default": "primary"
+        },
+        "intensity": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 1,
+          "default": 0.8
+        }
+      }
+    }
+  }
+}
