@@ -1,0 +1,19 @@
+{
+  "description": "Image-left, content-right feature block with checklist items, promo card, and call info row.",
+  "goals": [
+    "Keep structure reusable and content concise",
+    "Maintain checklist as repeatable list items",
+    "Preserve strong visual hierarchy with promo card"
+  ],
+  "image": {
+    "allowedModes": ["keep", "suggest", "library", "generate", "manual"],
+    "preferredMode": "suggest",
+    "subjectHints": ["automotive", "roadside assistance", "service"]
+  },
+  "fieldGuidance": {
+    "content.title": "3-7 words, strong headline.",
+    "content.eyebrow": "2-6 words, accent text.",
+    "listItems[].text": "6-12 words, one benefit per item.",
+    "callInfo.phone": "Use a real contact number format."
+  }
+}

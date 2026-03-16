@@ -42,6 +42,20 @@
         "blocks-interactive.css"
       ],
       "previewFile": null
+    },
+    "HeroOverlayCentered": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null
+    },
+    "FeatureImageChecklist": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null
     }
   },
   "assets": {
@@ -63,6 +77,16 @@
     "Accordions_FAQ": {
       "group": "Accordions",
       "blockType": "FAQ",
+      "smartMeta": true
+    },
+    "Blocks_HeroOverlayCentered": {
+      "group": "Blocks",
+      "blockType": "HeroOverlayCentered",
+      "smartMeta": true
+    },
+    "Blocks_FeatureImageChecklist": {
+      "group": "Blocks",
+      "blockType": "FeatureImageChecklist",
       "smartMeta": true
     }
   }
