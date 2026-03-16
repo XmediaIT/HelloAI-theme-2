@@ -66,6 +66,18 @@
       "templateFile": "BlockBuilder/Blocks/Blocks.html",
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
+    },
+    "HeroFeatureSplitStats": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "HeroFeatureSplitStats",
+      "type": "HeroFeatureSplitStats",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
     }
   },
   "assets": {
@@ -110,6 +122,17 @@
       "previewFile": null,
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
+    },
+    "Blocks_HeroFeatureSplitStats": {
+      "group": "Blocks",
+      "blockType": "HeroFeatureSplitStats",
+      "smartMeta": true,
+      "name": "HeroFeatureSplitStats",
+      "type": "HeroFeatureSplitStats",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
     }
   }
 }

@@ -325,3 +325,266 @@
       width: 52px
       height: 52px
       font-size: 22px
+
+.EasyDNNTheme_HelloAI-theme-2
+  .eds-heroFeatureSplitStatsBlock
+    margin-top: 48px
+
+    &__inner
+      padding: 0
+
+    &__hero
+      position: relative
+      min-height: 445px
+      height: 100%
+
+    &__heroImage
+      width: 100%
+      height: 100%
+      min-height: 445px
+      object-fit: cover
+
+    &__heroOverlay
+      position: absolute
+      inset: 0
+      background: var(--eds-heroSplitOverlay)
+
+    &__heroContent
+      position: absolute
+      inset: 0
+      z-index: 1
+      display: flex
+      flex-direction: column
+      justify-content: center
+      padding: 44px 40px
+      color: var(--eds-whiteColor)
+
+    &__title
+      margin: 0
+      color: var(--eds-whiteColor)
+      font-size: 54px
+      line-height: 1.08
+      max-width: 760px
+
+      span
+        color: var(--eds-primaryColor)
+
+    &__text
+      margin: 24px 0 0
+      color: var(--eds-whiteColor)
+      max-width: 700px
+      font-size: 17px
+      line-height: 1.5
+
+    &__panel
+      min-height: 445px
+      height: 100%
+      background: var(--eds-panelBg)
+      border-radius: 10px 10px 0 0
+      padding: 40px 34px 0
+
+    &__featureItem
+      display: grid
+      grid-template-columns: 58px 1fr
+      gap: 14px
+
+    &__featureIcon
+      width: 58px
+      height: 58px
+      border-radius: 50%
+      background: var(--eds-primaryColor)
+      color: var(--eds-whiteColor)
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      font-size: 26px
+      margin-top: 2px
+
+    &__featureTitle
+      margin: 0
+      color: var(--eds-darkColor)
+      font-size: 36px
+      line-height: 1.15
+      text-transform: uppercase
+
+    &__featureText
+      margin: 10px 0 0
+      color: var(--eds-mutedText)
+      font-size: 16px
+      line-height: 1.5
+
+    &__cta
+      margin-top: 26px
+      text-align: right
+
+      .eds_contactButton
+        min-width: 350px
+        height: 74px
+
+    &__bottom
+      background: var(--eds-whiteColor)
+
+    &__contact
+      min-height: 168px
+      border-top: 1px solid var(--eds-borderColor)
+      border-right: 1px solid var(--eds-borderColor)
+      border-bottom: 4px solid var(--eds-bottomBorderAccent)
+      display: flex
+      align-items: center
+      gap: 20px
+      padding: 26px 40px
+
+    &__contactIcon
+      width: 86px
+      height: 86px
+      border-radius: 50%
+      background: var(--eds-softContrast)
+      color: var(--eds-primaryColor)
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      font-size: 38px
+
+    &__contactText
+      display: flex
+      flex-direction: column
+      gap: 4px
+      color: var(--eds-blackColor)
+
+      strong
+        color: var(--eds-primaryColor)
+        font-size: 17px
+
+      span
+        font-size: 20px
+        font-weight: 700
+
+    &__stats
+      min-height: 168px
+      border-top: 1px solid var(--eds-borderColor)
+      display: grid
+      grid-template-columns: 1fr 1fr
+
+    &__statItem
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      padding: 22px 18px
+
+      &:first-child
+        border-right: 1px solid var(--eds-borderColor)
+
+    &__statValue
+      margin: 0
+      font-size: 64px
+      line-height: .95
+      font-weight: 700
+      color: var(--eds-primaryColor)
+
+      span
+        color: var(--eds-blackColor)
+
+    &__statLabel
+      margin-top: 10px
+      color: var(--eds-darkColor)
+      font-size: 16px
+      line-height: 1.2
+      font-weight: 700
+      text-transform: uppercase
+
+  @media (max-width: 1199.98px)
+    .eds-heroFeatureSplitStatsBlock
+      &__title
+        font-size: 42px
+
+      &__panel
+        border-radius: 0
+
+      &__contact
+        border-right: 0
+
+      &__stats
+        border-top: 0
+        border-left: 1px solid var(--eds-borderColor)
+
+  @media (max-width: 991.98px)
+    .eds-heroFeatureSplitStatsBlock
+      &__hero,
+      &__heroImage,
+      &__panel
+        min-height: 380px
+
+      &__title
+        font-size: 34px
+
+      &__heroContent
+        padding: 30px 22px
+
+      &__panel
+        padding: 26px 20px 0
+
+      &__featureTitle
+        font-size: 28px
+
+      &__cta
+        text-align: left
+
+        .eds_contactButton
+          min-width: 260px
+          height: 62px
+
+      &__bottom
+        border-top: 1px solid var(--eds-borderColor)
+
+      &__contact,
+      &__stats
+        min-height: 150px
+
+      &__contact
+        border-right: 0
+        border-bottom: 1px solid var(--eds-borderColor)
+
+      &__stats
+        border-left: 0
+
+  @media (max-width: 767.98px)
+    .eds-heroFeatureSplitStatsBlock
+      &__title
+        font-size: 29px
+
+      &__text
+        font-size: 16px
+
+      &__featureItem
+        grid-template-columns: 50px 1fr
+
+      &__featureIcon
+        width: 50px
+        height: 50px
+        font-size: 22px
+
+      &__featureTitle
+        font-size: 24px
+
+      &__contact
+        padding: 18px
+
+      &__contactIcon
+        width: 64px
+        height: 64px
+        font-size: 28px
+
+      &__contactText span
+        font-size: 17px
+
+      &__stats
+        grid-template-columns: 1fr
+
+      &__statItem
+        &:first-child
+          border-right: 0
+          border-bottom: 1px solid var(--eds-borderColor)
+
+      &__statValue
+        font-size: 50px
