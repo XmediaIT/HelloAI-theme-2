@@ -749,22 +749,16 @@ a {
   align-items: center;
   justify-content: center;
   color: var(--eds-overlayInkStrong);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 22px;
-=======
-  font-size: 34px;
->>>>>>> main
+  font-size: 22px;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoTitle {
   margin: 14px 0 0;
   color: var(--eds-whiteColor);
   font-family: var(--eds_headingsFont);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 24px;
-=======
-  font-size: 54px;
->>>>>>> main
+  font-size: 24px;
   line-height: 1.02;
   text-transform: uppercase;
 }
@@ -775,13 +769,10 @@ a {
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
   margin: 0;
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 32px;
   line-height: 1.05;
-=======
-  font-size: 58px;
-  line-height: 0.98;
->>>>>>> main
+  font-size: 32px;
+  line-height: 1.05;
   text-transform: uppercase;
 }
 
@@ -789,11 +780,8 @@ a {
   margin: 18px 0 0;
   color: var(--eds-primaryColor);
   font-family: var(--eds_headingsFont);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 20px;
-=======
-  font-size: 40px;
->>>>>>> main
+  font-size: 20px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
@@ -810,11 +798,8 @@ a {
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__text {
   margin: 0;
   color: var(--eds-mutedText);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 16px;
-=======
-  font-size: 36px;
->>>>>>> main
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -831,25 +816,19 @@ a {
   align-items: center;
   gap: 12px;
   color: var(--eds-darkColor);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 17px;
-=======
-  font-size: 30px;
->>>>>>> main
+  font-size: 17px;
   line-height: 1.25;
   font-weight: 600;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__listIcon {
-<<<<<<< codex/build-desktop-header-shell-and-menu
   width: 30px;
   height: 30px;
   flex: 0 0 30px;
-=======
-  width: 34px;
-  height: 34px;
-  flex: 0 0 34px;
->>>>>>> main
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
   border-radius: 50%;
   background: var(--eds-softContrast);
   color: var(--eds-primaryColor);
@@ -874,45 +853,33 @@ a {
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callIcon {
-<<<<<<< codex/build-desktop-header-shell-and-menu
   width: 52px;
   height: 52px;
-=======
-  width: 62px;
-  height: 62px;
->>>>>>> main
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background: var(--eds-softContrast);
   color: var(--eds-primaryColor);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 20px;
-=======
-  font-size: 28px;
->>>>>>> main
+  font-size: 20px;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callLabel {
   color: var(--eds-primaryColor);
   font-family: var(--eds_headingsFont);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 20px;
-=======
-  font-size: 38px;
->>>>>>> main
+  font-size: 20px;
   line-height: 1;
   font-weight: 600;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callText {
   color: var(--eds-darkColor);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 14px;
-=======
-  font-size: 28px;
->>>>>>> main
+  font-size: 14px;
   line-height: 1.2;
   font-weight: 600;
 }
@@ -923,11 +890,10 @@ a {
   background: transparent;
   border: 2px solid var(--eds-borderColor);
   color: var(--eds-darkColor);
-<<<<<<< codex/build-desktop-header-shell-and-menu
   font-size: 16px;
   letter-spacing: 0.02em;
-=======
->>>>>>> main
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineNeutral:hover,
@@ -962,7 +928,6 @@ a {
   }
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
-<<<<<<< codex/build-desktop-header-shell-and-menu
     font-size: 28px;
   }
 
@@ -984,42 +949,16 @@ a {
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callText {
     font-size: 14px;
-=======
-    font-size: 42px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
-    font-size: 30px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__text {
-    font-size: 22px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__listItem {
-    font-size: 20px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callLabel {
-    font-size: 28px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callText {
-    font-size: 20px;
->>>>>>> main
   }
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock .eds_contactButton--outlineLight {
     display: inline-flex;
   }
-<<<<<<< codex/build-desktop-header-shell-and-menu
   .EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineNeutral {
     min-width: 210px;
     height: 56px;
     font-size: 15px;
   }
-=======
->>>>>>> main
 }
 
 @media (max-width: 575.98px) {
@@ -1031,19 +970,11 @@ a {
   }
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
-<<<<<<< codex/build-desktop-header-shell-and-menu
     font-size: 24px;
   }
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
     font-size: 16px;
-=======
-    font-size: 34px;
-  }
-
-  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
-    font-size: 24px;
->>>>>>> main
   }
 
   .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__actions {

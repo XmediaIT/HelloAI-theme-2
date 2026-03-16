@@ -19,9 +19,18 @@
     }
   },
   "listItems": [
-    { "text": "Largest provider, with more patrols in more places" },
-    { "text": "You get 24/7 roadside assistance" },
-    { "text": "We fix 4 out of 5 cars at the roadside" }
+    {
+      "icon": "fa-check",
+      "text": "Largest provider, with more patrols in more places"
+    },
+    {
+      "icon": "fa-check",
+      "text": "You get 24/7 roadside assistance"
+    },
+    {
+      "icon": "fa-check",
+      "text": "We fix 4 out of 5 cars at the roadside"
+    }
   ],
   "callInfo": {
     "icon": "fa-phone",
