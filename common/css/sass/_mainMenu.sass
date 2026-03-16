@@ -87,3 +87,42 @@
     opacity: 1
     visibility: visible
     transform: translateY(0)
+
+  @media (max-width: 991.98px)
+    .edsmm_mainLevel
+      display: block
+      padding: 6px 0 16px
+
+      > li
+        display: block
+
+        > .edsmm_itemContainer
+          display: flex
+          min-height: 48px
+          justify-content: space-between
+          padding: 0 16px
+          border-bottom: 1px solid var(--eds-borderColor)
+          font-size: 15px
+
+    .edsmm_subLevel
+      position: static
+      opacity: 1
+      visibility: visible
+      transform: none
+      border: 0
+      min-width: 0
+      background: transparent
+      padding: 0
+      display: none
+
+      .edsmm_itemContainer
+        min-height: 42px
+        font-size: 14px
+        padding: 0 30px
+        border-bottom: 1px solid var(--eds-borderColor)
+
+      .edsmm_subLevel .edsmm_itemContainer
+        padding-left: 44px
+
+    .edsmm_hasChild.is-open > .edsmm_subLevel
+      display: block

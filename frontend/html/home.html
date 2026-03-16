@@ -22,9 +22,12 @@
             <a class="eds_logoLink" href="#" aria-label="Quote Nine home">
               <img class="eds_logoImage" src="../../common/images/logo.png" alt="Quote Nine Car Magazine">
             </a>
+            <button class="eds_mobileMenuToggle" type="button" aria-expanded="false" aria-controls="site-primary-menu" aria-label="Toggle menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
           </div>
 
-          <div class="eds_headerZone eds_headerNavZone">
+          <div class="eds_headerZone eds_headerNavZone" id="site-primary-menu">
             <nav class="raMenuWrapper edsmm_mainMenu" aria-label="Primary">
               <ul class="edsmm_mainLevel">
                 <li class="is-active"><a class="edsmm_itemContainer" href="#">Home</a></li>
@@ -34,7 +37,13 @@
                   <a class="edsmm_itemContainer" href="#" aria-expanded="false">Features</a>
                   <ul class="edsmm_subLevel">
                     <li><a class="edsmm_itemContainer" href="#">Review</a></li>
-                    <li><a class="edsmm_itemContainer" href="#">Comparison</a></li>
+                    <li class="edsmm_hasChild">
+                      <a class="edsmm_itemContainer" href="#" aria-expanded="false">Comparison</a>
+                      <ul class="edsmm_subLevel">
+                        <li><a class="edsmm_itemContainer" href="#">SUV</a></li>
+                        <li><a class="edsmm_itemContainer" href="#">Sedan</a></li>
+                      </ul>
+                    </li>
                     <li><a class="edsmm_itemContainer" href="#">Road Test</a></li>
                   </ul>
                 </li>
@@ -60,6 +69,47 @@
     <main class="eds_main">
       <section class="eds_previewContentSpacer"></section>
     </main>
+
+    <footer class="eds_siteFooter">
+      <div class="container-fluid eds_footerContainer">
+        <div class="eds_footerTop">
+          <div class="eds_footerTopZone eds_footerLogoZone">
+            <a class="eds_footerLogo" href="#" aria-label="Quote Nine home">
+              <img src="../../common/images/logo-white.png" alt="Quote Nine footer logo">
+            </a>
+          </div>
+          <div class="eds_footerTopZone eds_footerNavZone">
+            <nav class="eds_footerNav" aria-label="Footer main navigation">
+              <a href="#">Cars</a>
+              <a href="#">Electric</a>
+              <a href="#">Diesel</a>
+              <a href="#">Hybrid</a>
+              <a href="#">SUV</a>
+              <a href="#">Racing</a>
+              <a class="is-active" href="#">F1</a>
+            </nav>
+          </div>
+          <div class="eds_footerTopZone eds_footerSocialZone">
+            <span class="eds_footerSocialLabel">Social / Follow us on :</span>
+            <div class="eds_footerSocialIcons">
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="eds_footerBottom">
+          <nav class="eds_footerUtilityNav" aria-label="Footer utility links">
+            <a href="#">About us</a>
+            <a href="#">Privacy</a>
+            <a href="#">Conditions</a>
+            <a href="#">Location</a>
+          </nav>
+          <div class="eds_footerCopyright">Copyright © 2017. EasyDNNSolutions</div>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script src="../../common/vendors/bootstrap/bootstrap.bundle.min.js"></script>

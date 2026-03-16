@@ -22,15 +22,24 @@
             <a class="eds_logoLink" href="#" aria-label="Quote Nine home">
               <img class="eds_logoImage" src="../../../common/images/logo.png" alt="Quote Nine Car Magazine">
             </a>
+            <button class="eds_mobileMenuToggle" type="button" aria-expanded="false" aria-controls="header-primary-menu" aria-label="Toggle menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
           </div>
 
-          <div class="eds_headerZone eds_headerNavZone">
+          <div class="eds_headerZone eds_headerNavZone" id="header-primary-menu">
             <nav class="raMenuWrapper edsmm_mainMenu" aria-label="Primary">
               <ul class="edsmm_mainLevel">
                 <li class="is-active"><a class="edsmm_itemContainer" href="#">Home</a></li>
                 <li><a class="edsmm_itemContainer" href="#">News</a></li>
                 <li><a class="edsmm_itemContainer" href="#">Electric</a></li>
-                <li><a class="edsmm_itemContainer" href="#">Features</a></li>
+                <li class="edsmm_hasChild">
+                  <a class="edsmm_itemContainer" href="#" aria-expanded="false">Features</a>
+                  <ul class="edsmm_subLevel">
+                    <li><a class="edsmm_itemContainer" href="#">Review</a></li>
+                    <li><a class="edsmm_itemContainer" href="#">Road test</a></li>
+                  </ul>
+                </li>
                 <li><a class="edsmm_itemContainer" href="#">Stories</a></li>
                 <li><a class="edsmm_itemContainer" href="#">About us</a></li>
               </ul>
@@ -53,11 +62,34 @@
     <main class="eds_main">
       <div class="container py-5">
         <section class="eds_shellPlaceholder">
-          <h1>Desktop Header Preview</h1>
-          <p>Desktop-first shell header only. Mobile variants and content blocks are intentionally left for later tasks.</p>
+          <h1>Header + Mobile Menu Preview</h1>
+          <p>Desktop layout stays intact while mobile adds hamburger and nested dropdown behavior.</p>
         </section>
       </div>
     </main>
+
+    <footer class="eds_siteFooter">
+      <div class="container-fluid eds_footerContainer">
+        <div class="eds_footerTop">
+          <div class="eds_footerTopZone eds_footerLogoZone">
+            <a class="eds_footerLogo" href="#"><img src="../../../common/images/logo-white.png" alt="Quote Nine footer logo"></a>
+          </div>
+          <div class="eds_footerTopZone eds_footerNavZone">
+            <nav class="eds_footerNav" aria-label="Footer navigation">
+              <a href="#">Cars</a><a href="#">Electric</a><a href="#">Diesel</a><a href="#">Hybrid</a><a href="#">SUV</a><a href="#">Racing</a><a class="is-active" href="#">F1</a>
+            </nav>
+          </div>
+          <div class="eds_footerTopZone eds_footerSocialZone">
+            <span class="eds_footerSocialLabel">Social / Follow us on :</span>
+            <div class="eds_footerSocialIcons"><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+          </div>
+        </div>
+        <div class="eds_footerBottom">
+          <nav class="eds_footerUtilityNav"><a href="#">About us</a><a href="#">Privacy</a><a href="#">Conditions</a><a href="#">Location</a></nav>
+          <div class="eds_footerCopyright">Copyright © 2017. EasyDNNSolutions</div>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script src="../../../common/vendors/bootstrap/bootstrap.bundle.min.js"></script>
