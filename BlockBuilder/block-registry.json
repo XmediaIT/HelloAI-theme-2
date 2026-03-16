@@ -49,6 +49,13 @@
         "blocks-content.css"
       ],
       "previewFile": null
+    },
+    "FeatureImageChecklist": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null
     }
   },
   "assets": {
@@ -75,6 +82,11 @@
     "Blocks_HeroOverlayCentered": {
       "group": "Blocks",
       "blockType": "HeroOverlayCentered",
+      "smartMeta": true
+    },
+    "Blocks_FeatureImageChecklist": {
+      "group": "Blocks",
+      "blockType": "FeatureImageChecklist",
       "smartMeta": true
     }
   }

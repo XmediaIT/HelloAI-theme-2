@@ -19,6 +19,11 @@
   --eds-headerIconBg: #f3f3f3;
   --eds-whiteColor: #ffffff;
   --eds-heroOverlayColor: rgba(255, 100, 60, .82);
+  --eds-softBg: #f3f3f3;
+  --eds-mutedText: #7d7d7d;
+  --eds-softContrast: #ececec;
+  --eds-overlayInkStrong: rgba(0, 0, 0, .4);
+  --eds-overlayInkSoft: rgba(0, 0, 0, .18);
 }
 
 body {
@@ -699,5 +704,262 @@ a {
     min-width: 190px;
     height: 52px;
     font-size: 18px;
+  }
+}
+
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock {
+  padding: 72px 0;
+  background: var(--eds-softBg);
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__inner {
+  position: relative;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__media {
+  position: relative;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__image {
+  width: 100%;
+  height: auto;
+  min-height: 420px;
+  object-fit: cover;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoCard {
+  position: absolute;
+  top: 60px;
+  right: -56px;
+  width: 360px;
+  max-width: calc(100% - 24px);
+  background: var(--eds-primaryColor);
+  color: var(--eds-whiteColor);
+  text-align: center;
+  padding: 28px 20px 30px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoIcon {
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  border: 2px solid var(--eds-overlayInkSoft);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--eds-overlayInkStrong);
+  font-size: 34px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoTitle {
+  margin: 14px 0 0;
+  color: var(--eds-whiteColor);
+  font-family: var(--eds_headingsFont);
+  font-size: 54px;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__content {
+  padding-left: 22px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
+  margin: 0;
+  font-size: 58px;
+  line-height: 0.98;
+  text-transform: uppercase;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
+  margin: 18px 0 0;
+  color: var(--eds-primaryColor);
+  font-family: var(--eds_headingsFont);
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__divider {
+  display: block;
+  width: 104px;
+  height: 4px;
+  background: var(--eds-primaryColor);
+  margin: 14px 0 20px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__text {
+  margin: 0;
+  color: var(--eds-mutedText);
+  font-size: 36px;
+  line-height: 1.35;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__list {
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 15px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__listItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--eds-darkColor);
+  font-size: 30px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__listIcon {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  border-radius: 50%;
+  background: var(--eds-softContrast);
+  color: var(--eds-primaryColor);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__actions {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__call {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callIcon {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: var(--eds-softContrast);
+  color: var(--eds-primaryColor);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callLabel {
+  color: var(--eds-primaryColor);
+  font-family: var(--eds_headingsFont);
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callText {
+  color: var(--eds-darkColor);
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineNeutral {
+  min-width: 250px;
+  height: 64px;
+  background: transparent;
+  border: 2px solid var(--eds-borderColor);
+  color: var(--eds-darkColor);
+}
+
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineNeutral:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds_contactButton--outlineNeutral:focus-visible {
+  border-color: var(--eds-primaryColor);
+}
+
+@media (max-width: 1199.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoCard {
+    right: -16px;
+    width: 320px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock {
+    padding: 56px 0;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__media {
+    margin-bottom: 34px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoCard {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
+    font-size: 42px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
+    font-size: 30px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__text {
+    font-size: 22px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__listItem {
+    font-size: 20px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callLabel {
+    font-size: 28px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callText {
+    font-size: 20px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock .eds_contactButton--outlineLight {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoCard {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 14px auto 0;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__title {
+    font-size: 34px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__eyebrow {
+    font-size: 24px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__actions {
+    gap: 18px;
+  }
+
+  .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__callIcon {
+    width: 52px;
+    height: 52px;
+    font-size: 22px;
   }
 }
