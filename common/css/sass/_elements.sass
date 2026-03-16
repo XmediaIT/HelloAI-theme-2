@@ -1,0 +1,79 @@
+
+/* Source: frontend/sass/core/_buttons.sass */
+.eds-btn
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  min-height: 48px
+  padding: .75rem 1.25rem
+  border: 1px solid transparent
+  border-radius: var(--theme-radius-md)
+  font-weight: 600
+  transition: .2s ease
+
+.eds-btn--primary
+  background: var(--theme-primary)
+  color: #fff
+
+  &:hover
+    background: var(--theme-primary-dark)
+
+.eds-btn--secondary
+  background: transparent
+  border-color: var(--theme-border)
+  color: var(--theme-text)
+
+.eds-btn--link
+  padding: 0
+  min-height: auto
+  background: transparent
+  color: var(--theme-primary)
+
+/* Source: frontend/sass/blocks/families/_cards-family.sass */
+.eds-cardsBlock
+  &__grid
+    display: grid
+    gap: 1.5rem
+
+.eds-card
+  background: var(--theme-bg)
+  border: 1px solid var(--theme-border)
+  border-radius: var(--theme-radius-md)
+  box-shadow: var(--theme-shadow-sm)
+
+.eds-card__content
+  padding: 1.5rem
+
+.eds-card__title
+  margin-bottom: .5rem
+  font-family: var(--theme-heading-font)
+
+/* Source: frontend/sass/blocks/families/_cta-family.sass */
+.eds-ctaBlock
+  &__inner
+    display: flex
+    gap: 1.5rem
+    align-items: center
+    justify-content: space-between
+
+  &__content
+    max-width: 46rem
+
+  &__actions
+    display: flex
+    flex-wrap: wrap
+    gap: .75rem
+
+/* Source: frontend/sass/blocks/families/_faq-family.sass */
+.eds-faqBlock__list
+  display: grid
+  gap: 1rem
+
+.eds-faqBlock__item
+  border: 1px solid var(--theme-border)
+  border-radius: var(--theme-radius-md)
+  padding: 1rem 1.25rem
+
+.eds-faqBlock__question
+  font-weight: 700
+  margin-bottom: .5rem

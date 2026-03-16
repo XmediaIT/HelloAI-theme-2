@@ -1,0 +1,5 @@
+.eds-containers-HelloAI-theme-2 .eds-container--boxed {
+  border: 1px solid var(--theme-border);
+  border-radius: var(--theme-radius-md);
+  padding: 1rem;
+}

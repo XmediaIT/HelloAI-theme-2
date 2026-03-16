@@ -1,0 +1,7 @@
+{
+  "settings": [
+    { "id": "headerVariant", "value": "minimal" },
+    { "id": "footerVariant", "value": "columns" },
+    { "id": "additionalResources", "value": ["header-variants.css", "footer-variants.css"] }
+  ]
+}

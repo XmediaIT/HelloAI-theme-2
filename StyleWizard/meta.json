@@ -1,0 +1,26 @@
+{
+  "name": "EasyDNNTheme_HelloAI-theme-2",
+  "version": "1.0.0",
+  "assetsClientPath": "/Portals/_default/Skins/EasyDNNTheme_HelloAI-theme-2",
+  "customFontFamilies": [
+    {
+      "name": "Josefin Sans",
+      "importUrl": "//fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+    },
+    {
+      "name": "Source Sans 3",
+      "importUrl": "//fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    }
+  ],
+  "styleDefinitions": [
+    { "id": "global-colors", "label": "Global Colors", "type": "globalColors" },
+    { "id": "font-variables", "label": "Font Variables", "type": "fontVariables" },
+    { "id": "color-variables", "label": "Color Variables", "type": "colorVariables" },
+    { "id": "custom-css", "label": "Custom CSS", "type": "customCSS" }
+  ],
+  "themeObjectSettings": [
+    { "id": "headerVariant", "label": "Header Variant", "type": "variableContentSections" },
+    { "id": "footerVariant", "label": "Footer Variant", "type": "variableContentSections" },
+    { "id": "additionalResources", "label": "Additional Resources", "type": "additionalResources" }
+  ]
+}

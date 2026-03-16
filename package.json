@@ -1,0 +1,11 @@
+{
+  "name": "easydnntheme-helloaitest7-starter",
+  "private": true,
+  "scripts": {
+    "build:css": "sass frontend/sass/packs:build/css --style=expanded --no-source-map",
+    "watch:css": "sass --watch frontend/sass/packs:build/css --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "*"
+  }
+}

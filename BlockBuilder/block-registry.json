@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "packs": {
+    "blocks-content.css": {
+      "type": "block-pack"
+    },
+    "blocks-conversion.css": {
+      "type": "block-pack"
+    },
+    "blocks-listing.css": {
+      "type": "block-pack"
+    },
+    "blocks-interactive.css": {
+      "type": "block-pack"
+    }
+  },
+  "blocks": {
+    "Hero": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null
+    },
+    "CardsGrid": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-listing.css"
+      ],
+      "previewFile": null
+    },
+    "CTA": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-conversion.css"
+      ],
+      "previewFile": null
+    },
+    "FAQ": {
+      "group": "Accordions",
+      "cssPacks": [
+        "blocks-interactive.css"
+      ],
+      "previewFile": null
+    }
+  },
+  "assets": {
+    "Blocks_Hero": {
+      "group": "Blocks",
+      "blockType": "Hero",
+      "smartMeta": true
+    },
+    "Blocks_CardsGrid": {
+      "group": "Blocks",
+      "blockType": "CardsGrid",
+      "smartMeta": true
+    },
+    "Blocks_CTA": {
+      "group": "Blocks",
+      "blockType": "CTA",
+      "smartMeta": true
+    },
+    "Accordions_FAQ": {
+      "group": "Accordions",
+      "blockType": "FAQ",
+      "smartMeta": true
+    }
+  }
+}

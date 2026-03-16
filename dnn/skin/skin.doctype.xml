@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <doctypes>
+    <doctype>
+      <name>HTML5</name>
+      <declaration>&lt;!DOCTYPE html&gt;</declaration>
+    </doctype>
+  </doctypes>
+</root>

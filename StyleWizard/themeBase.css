@@ -1,0 +1,11 @@
+.EasyDNNTheme_HelloAI-theme-2 {
+  --theme-primary: #d32228;
+  --theme-primary-dark: #b51c21;
+  --theme-text: #1f1f1f;
+  --theme-muted: #6e6e6e;
+  --theme-bg: #ffffff;
+  --theme-surface: #f6f6f6;
+  --theme-border: #dddddd;
+  --theme-heading-font: "Oswald", sans-serif;
+  --theme-body-font: "Roboto", sans-serif;
+}
