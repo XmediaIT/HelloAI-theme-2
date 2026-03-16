@@ -6,19 +6,39 @@
   --eds-bodyColor: #666666
   --eds-bgColor: #ffffff
   --eds-footerBg: #121212
+  --eds-footerText: #f4f4f4
+  --eds-footerMuted: #bbbbbb
+  --eds-footerSmallText: #6f6f6f
+  --eds-footerDivider: #252525
   --eds-borderColor: #d9d9d9
+  --eds-headerBg: #f6f6f6
+  --eds-headerText: #1f1f1f
+  --eds-headerMuted: #bcbcbc
+  --eds-headerIconBg: #f3f3f3
+  --eds-whiteColor: #ffffff
 
 body
   margin: 0
-  background: #f3f3f3
+  background: var(--eds-bgColor)
   color: var(--eds-bodyColor)
   font-family: var(--eds_defaultFont)
+
+h1, h2, h3, h4, h5, h6
+  font-family: var(--eds_headingsFont)
 
 a
   color: inherit
   text-decoration: none
 
+.eds_main
+  min-height: 40vh
+
 .eds_shellPlaceholder
   padding: 64px 32px
-  background: #fff
+  background: var(--eds-whiteColor)
   border: 1px dashed rgba(0,0,0,.15)
+
+.eds_previewContentSpacer
+  min-height: 420px
+  background: linear-gradient(180deg, #fcfcfc 0%, #f2f2f2 100%)
+  border-top: 1px solid var(--eds-borderColor)
