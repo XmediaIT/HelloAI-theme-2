@@ -1220,6 +1220,11 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 94px 1fr;
   background: var(--eds-softContrast);
   overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card:hover, .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.16);
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card--roundRight {
   border-radius: 0 112px 112px 0;

@@ -694,6 +694,12 @@
       grid-template-columns: 94px 1fr
       background: var(--eds-softContrast)
       overflow: hidden
+      transition: transform .25s ease, box-shadow .25s ease
+
+      &:hover,
+      &:focus-visible
+        transform: translateY(-4px)
+        box-shadow: 0 18px 30px rgba(0, 0, 0, .16)
 
       &--roundRight
         border-radius: 0 112px 112px 0
