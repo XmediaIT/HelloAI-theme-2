@@ -1,0 +1,15 @@
+{
+  "description": "Customer service block with centered heading and a two-by-two grid of promotional cards with a vertical icon strip.",
+  "goals": [
+    "Keep the service cards concise and benefit-focused",
+    "Preserve two-column desktop composition",
+    "Use short uppercase headings for strong hierarchy"
+  ],
+  "fieldGuidance": {
+    "heading": "2-4 words, uppercase service category heading.",
+    "items[].eyebrow": "2-5 words.",
+    "items[].title": "2-4 words, punchy benefit statement.",
+    "items[].text": "12-24 words of supporting value proposition.",
+    "items[].icon": "Use a valid Font Awesome icon class name without the style prefix (e.g. fa-plus)."
+  }
+}

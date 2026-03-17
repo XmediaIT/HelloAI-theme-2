@@ -1189,3 +1189,129 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 56px;
   }
 }
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock {
+  padding: 76px 0 78px;
+  background: var(--eds-softBg);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__headingWrap {
+  text-align: center;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__heading {
+  margin: 0;
+  color: var(--eds-darkColor);
+  font-size: 48px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__divider {
+  display: inline-block;
+  width: 120px;
+  height: 5px;
+  background: var(--eds-primaryColor);
+  margin-top: 16px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__grid {
+  margin-top: 54px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card {
+  min-height: 292px;
+  display: grid;
+  grid-template-columns: 94px 1fr;
+  background: var(--eds-softContrast);
+  overflow: hidden;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card--roundRight {
+  border-radius: 0 112px 112px 0;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.07);
+  color: var(--eds-whiteColor);
+  font-size: 52px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__content {
+  padding: 52px 42px 40px 34px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__eyebrow {
+  margin: 0;
+  color: var(--eds-darkColor);
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__title {
+  margin: 10px 0 0;
+  color: var(--eds-primaryColor);
+  font-size: 68px;
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__text {
+  margin: 20px 0 0;
+  color: var(--eds-bodyColor);
+  font-size: 18px;
+  line-height: 1.45;
+  max-width: 92%;
+}
+@media (max-width: 1199.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__heading {
+    font-size: 42px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__title {
+    font-size: 56px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__content {
+    padding: 44px 30px 34px 28px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card {
+    min-height: 268px;
+  }
+}
+@media (max-width: 991.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card {
+    min-height: 240px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__title {
+    font-size: 46px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__icon {
+    font-size: 42px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__content {
+    padding: 36px 24px 30px 22px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__text {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock {
+    padding: 60px 0;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__heading {
+    font-size: 34px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__grid {
+    margin-top: 34px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card {
+    grid-template-columns: 72px 1fr;
+    min-height: 224px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__card--roundRight {
+    border-radius: 0 44px 44px 0;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__icon {
+    font-size: 34px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__title {
+    font-size: 36px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-customerServiceGridBlock__text {
+    font-size: 16px;
+  }
+}

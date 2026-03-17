@@ -78,6 +78,18 @@
       "templateFile": "BlockBuilder/Blocks/Blocks.html",
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
+    },
+    "CustomerServiceGrid": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "CustomerServiceGrid",
+      "type": "CustomerServiceGrid",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
     }
   },
   "assets": {
@@ -133,6 +145,17 @@
       "previewFile": null,
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
+    },
+    "Blocks_CustomerServiceGrid": {
+      "group": "Blocks",
+      "blockType": "CustomerServiceGrid",
+      "smartMeta": true,
+      "name": "CustomerServiceGrid",
+      "type": "CustomerServiceGrid",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
     }
   }
 }
