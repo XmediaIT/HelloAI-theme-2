@@ -1,0 +1,44 @@
+{
+  "image": {
+    "src": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Professional team reviewing project dashboard",
+    "mode": "suggest"
+  },
+  "promoCard": {
+    "icon": "fa-shield-halved",
+    "title": "Flexible Plans for Growing Teams"
+  },
+  "content": {
+    "title": "One workflow. Better outcomes.",
+    "eyebrow": "Built for everyday operations",
+    "text": "Use this section to present your core offer, key support model, and measurable value in a clear, reusable format.",
+    "button": {
+      "label": "Read More",
+      "url": "#",
+      "target": "_self"
+    }
+  },
+  "listItems": [
+    {
+      "icon": "fa-check",
+      "text": "Priority response from a dedicated support contact"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Scheduled reviews to keep delivery on track"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Documented process with transparent milestones"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Flexible onboarding for new teams and locations"
+    }
+  ],
+  "callInfo": {
+    "icon": "fa-phone",
+    "label": "Talk to an advisor",
+    "phone": "+1 (800) 555-0199"
+  }
+}
