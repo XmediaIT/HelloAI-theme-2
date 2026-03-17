@@ -1,0 +1,33 @@
+{
+  "heading": "Customer Sevice",
+  "items": [
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Lorem ipsum",
+      "title": "Unlimited Miles",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Eismod tempor lorem ipsum",
+      "title": "Mobile Reservations",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,",
+      "roundRight": true
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Sed do tempor",
+      "title": "Special Rates",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Dolor sit amet",
+      "title": "Car Rentals",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,",
+      "roundRight": true
+    }
+  ]
+}
