@@ -1,1 +1,157 @@
-/* Intentionally empty starter. Build header from scratch from the mockup. */
+.EasyDNNTheme_HelloAI-theme-2
+  .eds_siteHeader
+    background: var(--eds-headerBg)
+    border-bottom: 1px solid var(--eds-borderColor)
+    position: relative
+    z-index: 20
+
+    &.is-sticky-ready
+      position: sticky
+      top: 0
+
+  .eds_siteHeaderInner
+    display: flex
+    align-items: center
+    min-height: 114px
+
+  .eds_headerZone
+    min-height: 114px
+    display: flex
+    align-items: center
+
+  .eds_headerLogoZone
+    width: 340px
+    flex: 0 0 340px
+    border-right: 1px solid var(--eds-borderColor)
+    padding-right: 28px
+    justify-content: space-between
+
+    .eds_logoLink
+      display: inline-flex
+      align-items: center
+
+    .eds_logoImage
+      max-width: 267px
+      width: 100%
+      height: auto
+
+  .eds_mobileMenuToggle
+    width: 44px
+    height: 44px
+    border: 1px solid var(--eds-borderColor)
+    background: var(--eds-whiteColor)
+    color: var(--eds-headerText)
+    display: none
+    align-items: center
+    justify-content: center
+    font-size: 18px
+
+  .eds_headerNavZone
+    flex: 1 1 auto
+    justify-content: center
+    padding: 0 36px
+
+  .eds_headerActionsZone
+    width: 330px
+    flex: 0 0 330px
+    justify-content: flex-end
+    gap: 18px
+
+  .eds_headerActionIcons
+    display: flex
+    align-items: center
+    gap: 12px
+
+  .eds_headerActionIcon
+    width: 58px
+    height: 58px
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    border: 1px solid var(--eds-borderColor)
+    color: var(--eds-headerMuted)
+    background: var(--eds-headerIconBg)
+    font-size: 20px
+    transition: color .2s ease, border-color .2s ease
+
+    &:hover,
+    &:focus-visible
+      color: var(--eds-primaryColor)
+      border-color: var(--eds-primaryColor)
+
+    &.is-active
+      color: var(--eds-primaryColor)
+
+  .eds_contactButton
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    min-width: 128px
+    height: 44px
+    padding: 0 22px
+    border: 1px solid transparent
+    background: var(--eds-primaryColor)
+    color: var(--eds-whiteColor)
+    font-size: 22px
+    line-height: 1
+    letter-spacing: .03em
+    font-weight: 600
+    text-transform: uppercase
+    font-family: var(--eds_headingsFont)
+    white-space: nowrap
+
+    &:hover,
+    &:focus-visible
+      background: var(--eds-whiteColor)
+      color: var(--eds-primaryColor)
+      border-color: var(--eds-primaryColor)
+
+  @media (max-width: 991.98px)
+    .eds_siteHeaderInner
+      min-height: 86px
+      flex-wrap: wrap
+
+    .eds_headerZone
+      min-height: 86px
+
+    .eds_headerLogoZone
+      width: auto
+      flex: 1 1 auto
+      border-right: 0
+      padding-right: 0
+
+      .eds_logoImage
+        max-width: 190px
+
+    .eds_mobileMenuToggle
+      display: inline-flex
+
+    .eds_headerActionsZone
+      width: auto
+      flex: 0 0 auto
+      gap: 10px
+
+    .eds_headerActionIcons
+      gap: 8px
+
+    .eds_headerActionIcon
+      width: 42px
+      height: 42px
+      font-size: 15px
+
+    .eds_contactButton
+      display: none
+
+    .eds_headerActionIcons > a:not(:last-child)
+      display: none
+
+    .eds_headerNavZone
+      width: 100%
+      flex: 0 0 100%
+      min-height: 0
+      padding: 0
+      border-top: 1px solid var(--eds-borderColor)
+      display: none
+
+    .eds_siteHeader.is-mobileMenuOpen .eds_headerNavZone
+      display: block

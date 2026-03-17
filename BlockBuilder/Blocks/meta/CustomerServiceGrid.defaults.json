@@ -1,0 +1,33 @@
+{
+  "heading": "Customer Service",
+  "items": [
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Long-distance freedom",
+      "title": "Unlimited Mileage",
+      "text": "Drive farther on approved plans with no mileage penalties and clear daily pricing.",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Book in under 2 minutes",
+      "title": "Mobile Reservations",
+      "text": "Reserve from your phone, upload documents, and confirm pickup time before arrival.",
+      "roundRight": true
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Weekend & monthly deals",
+      "title": "Special Rates",
+      "text": "Access seasonal offers, loyalty discounts, and bundled insurance for better value.",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Protection that travels",
+      "title": "Vehicle Care Plans",
+      "text": "Add detailing, tire protection, and 24/7 roadside assistance with every premium package.",
+      "roundRight": true
+    }
+  ]
+}

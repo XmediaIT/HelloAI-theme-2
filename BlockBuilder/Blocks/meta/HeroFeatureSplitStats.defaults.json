@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "image": {
+      "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Blue sports car parked near industrial buildings",
+      "mode": "suggest"
+    }
+  },
+  "title": "Your next vehicle is ready today. Find your perfect match",
+  "text": "Shop certified cars, compare payment plans, and book delivery or pickup with support from our dealership specialists.",
+  "features": [
+    {
+      "icon": "fa-user",
+      "title": "Trusted by local drivers",
+      "text": "Over 10 years of verified reviews and repeat buyers across city and regional markets."
+    },
+    {
+      "icon": "fa-gear",
+      "title": "Service plans that fit",
+      "text": "Maintenance, warranty, and roadside options bundled into one simple monthly plan."
+    }
+  ],
+  "cta": {
+    "label": "Find Out More",
+    "url": "#",
+    "target": "_self"
+  },
+  "contact": {
+    "icon": "fa-phone",
+    "label": "Need quick help? Speak with our team",
+    "phone": "+1 (305) 866-3245"
+  },
+  "stats": [
+    {
+      "value": "562+",
+      "label": "Vehicles in stock"
+    },
+    {
+      "value": "856+",
+      "label": "Satisfied customers"
+    }
+  ]
+}
