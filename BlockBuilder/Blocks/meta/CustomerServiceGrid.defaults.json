@@ -3,30 +3,30 @@
   "items": [
     {
       "icon": "fa-plus",
-      "eyebrow": "Long-distance freedom",
-      "title": "Unlimited Mileage",
-      "text": "Drive farther on approved plans with no mileage penalties and clear daily pricing.",
+      "eyebrow": "Fast start setup",
+      "title": "Rapid Onboarding",
+      "text": "Launch quickly with a guided setup checklist, stakeholder alignment, and clear first-week actions.",
       "roundRight": false
     },
     {
       "icon": "fa-plus",
-      "eyebrow": "Book in under 2 minutes",
-      "title": "Mobile Reservations",
-      "text": "Reserve from your phone, upload documents, and confirm pickup time before arrival.",
+      "eyebrow": "Anywhere booking",
+      "title": "Mobile Requests",
+      "text": "Submit requests from any device, track progress, and confirm details without back-and-forth.",
       "roundRight": true
     },
     {
       "icon": "fa-plus",
-      "eyebrow": "Weekend & monthly deals",
-      "title": "Special Rates",
-      "text": "Access seasonal offers, loyalty discounts, and bundled insurance for better value.",
+      "eyebrow": "Flexible pricing",
+      "title": "Special Packages",
+      "text": "Mix monthly plans, project bundles, and add-ons to match changing workload and team capacity.",
       "roundRight": false
     },
     {
       "icon": "fa-plus",
-      "eyebrow": "Protection that travels",
-      "title": "Vehicle Care Plans",
-      "text": "Add detailing, tire protection, and 24/7 roadside assistance with every premium package.",
+      "eyebrow": "Always covered",
+      "title": "Priority Support",
+      "text": "Get escalation paths, response targets, and continuity support when timelines are critical.",
       "roundRight": true
     }
   ]

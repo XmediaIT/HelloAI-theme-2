@@ -15,9 +15,10 @@
     ],
     "preferredMode": "suggest",
     "subjectHints": [
-      "automotive",
-      "roadside assistance",
-      "service"
+      "people at work",
+      "team collaboration",
+      "modern workspace",
+      "neutral lifestyle"
     ]
   },
   "fieldGuidance": {
@@ -26,5 +27,25 @@
     "listItems[].text": "6-12 words, one benefit per item.",
     "callInfo.phone": "Use a real contact number format.",
     "listItems[].icon": "Use Font Awesome class, e.g. fa-check."
+  },
+  "runtimeContextInputs": [
+    "industry",
+    "brandTone",
+    "targetAudience",
+    "pageGoal",
+    "language"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
   }
 }

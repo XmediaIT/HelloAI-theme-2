@@ -2,22 +2,22 @@
   "hero": {
     "image": {
       "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80",
-      "alt": "Blue sports car parked near industrial buildings",
+      "alt": "Office meeting space with modern architecture",
       "mode": "suggest"
     }
   },
-  "title": "Your next vehicle is ready today. Find your perfect match",
-  "text": "Shop certified cars, compare payment plans, and book delivery or pickup with support from our dealership specialists.",
+  "title": "Move faster with a reliable partner. Find your next step",
+  "text": "Compare options, activate services quickly, and scale with practical guidance from a team that supports long-term growth.",
   "features": [
     {
       "icon": "fa-user",
-      "title": "Trusted by local drivers",
-      "text": "Over 10 years of verified reviews and repeat buyers across city and regional markets."
+      "title": "Trusted by growing teams",
+      "text": "Proven delivery across multiple markets with repeat clients and consistent implementation outcomes."
     },
     {
       "icon": "fa-gear",
-      "title": "Service plans that fit",
-      "text": "Maintenance, warranty, and roadside options bundled into one simple monthly plan."
+      "title": "Plans that fit your goals",
+      "text": "Choose onboarding, support, and optimization packages aligned to your timeline and budget."
     }
   ],
   "cta": {
@@ -33,11 +33,11 @@
   "stats": [
     {
       "value": "562+",
-      "label": "Vehicles in stock"
+      "label": "Active projects"
     },
     {
       "value": "856+",
-      "label": "Satisfied customers"
+      "label": "Client milestones"
     }
   ]
 }

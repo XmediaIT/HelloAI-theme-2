@@ -6,13 +6,44 @@
     "Prioritize readability over the image"
   ],
   "image": {
-    "allowedModes": ["keep", "suggest", "library", "generate", "manual"],
+    "allowedModes": [
+      "keep",
+      "suggest",
+      "library",
+      "generate",
+      "manual"
+    ],
     "preferredMode": "suggest",
-    "subjectHints": ["automotive", "performance", "modern architecture"]
+    "subjectHints": [
+      "people at work",
+      "team collaboration",
+      "modern workspace",
+      "neutral lifestyle"
+    ]
   },
   "fieldGuidance": {
     "eyebrow": "3-8 words, sentence case.",
     "title": "4-10 words, strong uppercase headline.",
     "button.label": "1-3 words, clear action verb."
+  },
+  "runtimeContextInputs": [
+    "industry",
+    "brandTone",
+    "targetAudience",
+    "pageGoal",
+    "language"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
   }
 }

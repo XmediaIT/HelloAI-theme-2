@@ -11,5 +11,25 @@
     "items[].title": "2-4 words, punchy benefit statement.",
     "items[].text": "12-24 words of supporting value proposition.",
     "items[].icon": "Use a valid Font Awesome icon class name without the style prefix (e.g. fa-plus)."
+  },
+  "runtimeContextInputs": [
+    "industry",
+    "brandTone",
+    "targetAudience",
+    "pageGoal",
+    "language"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
   }
 }
