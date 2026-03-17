@@ -6,11 +6,19 @@
       "mode": "suggest"
     }
   },
-  "title": "We provide best vehicle solutions and best services! Find your solution",
-  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+  "title": "Your next vehicle is ready today. Find your perfect match",
+  "text": "Shop certified cars, compare payment plans, and book delivery or pickup with support from our dealership specialists.",
   "features": [
-    { "icon": "fa-user", "title": "Trusted by thousands of people", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." },
-    { "icon": "fa-gear", "title": "Best services", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." }
+    {
+      "icon": "fa-user",
+      "title": "Trusted by local drivers",
+      "text": "Over 10 years of verified reviews and repeat buyers across city and regional markets."
+    },
+    {
+      "icon": "fa-gear",
+      "title": "Service plans that fit",
+      "text": "Maintenance, warranty, and roadside options bundled into one simple monthly plan."
+    }
   ],
   "cta": {
     "label": "Find Out More",
@@ -19,11 +27,17 @@
   },
   "contact": {
     "icon": "fa-phone",
-    "label": "Have any question? Find your Solution",
-    "phone": "+ 035 8566324 4545"
+    "label": "Need quick help? Speak with our team",
+    "phone": "+1 (305) 866-3245"
   },
   "stats": [
-    { "value": "562+", "label": "Vehicles in stock" },
-    { "value": "856+", "label": "Happy customers" }
+    {
+      "value": "562+",
+      "label": "Vehicles in stock"
+    },
+    {
+      "value": "856+",
+      "label": "Satisfied customers"
+    }
   ]
 }

@@ -6,12 +6,12 @@
   },
   "promoCard": {
     "icon": "fa-shield-halved",
-    "title": "Best Programs For Everyone"
+    "title": "Protection Plans for Every Driver"
   },
   "content": {
-    "title": "We Provide Best Solutions",
-    "eyebrow": "Here Is an Example",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Smart Mobility. Real Support.",
+    "eyebrow": "Built for daily driving",
+    "text": "From city commuters to family SUVs, Quote Nine helps you choose the right vehicle with financing and service support in one place.",
     "button": {
       "label": "Read More",
       "url": "#",
@@ -21,20 +21,24 @@
   "listItems": [
     {
       "icon": "fa-check",
-      "text": "Largest provider, with more patrols in more places"
+      "text": "24/7 roadside assistance in city and highway zones"
     },
     {
       "icon": "fa-check",
-      "text": "You get 24/7 roadside assistance"
+      "text": "Free scheduled inspection with every annual plan"
     },
     {
       "icon": "fa-check",
-      "text": "We fix 4 out of 5 cars at the roadside"
+      "text": "Warranty-backed parts and certified service technicians"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Priority booking for maintenance and tire services"
     }
   ],
   "callInfo": {
     "icon": "fa-phone",
-    "label": "Call anytime",
-    "phone": "+035 8566324 4545"
+    "label": "Speak with an advisor",
+    "phone": "+1 (800) 555-0199"
   }
 }
