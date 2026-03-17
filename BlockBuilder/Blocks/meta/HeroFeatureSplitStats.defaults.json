@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "image": {
+      "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Blue sports car parked near industrial buildings",
+      "mode": "suggest"
+    }
+  },
+  "title": "We provide best vehicle solutions and best services! Find your solution",
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+  "features": [
+    { "icon": "fa-user", "title": "Trusted by thousands of people", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." },
+    { "icon": "fa-gear", "title": "Best services", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." }
+  ],
+  "cta": {
+    "label": "Find Out More",
+    "url": "#",
+    "target": "_self"
+  },
+  "contact": {
+    "icon": "fa-phone",
+    "label": "Have any question? Find your Solution",
+    "phone": "+ 035 8566324 4545"
+  },
+  "stats": [
+    { "value": "562+", "label": "Vehicles in stock" },
+    { "value": "856+", "label": "Happy customers" }
+  ]
+}
