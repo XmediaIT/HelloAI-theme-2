@@ -1,0 +1,35 @@
+{
+  "description": "Three-column advantages block with centered heading, optional intro text, and one featured middle card.",
+  "goals": [
+    "Keep the content reusable across industries",
+    "Preserve exactly three cards with one highlighted card",
+    "Maintain concise value-focused messaging"
+  ],
+  "fieldGuidance": {
+    "heading": "2-4 words, uppercase section heading.",
+    "intro": "12-24 words, concise supporting sentence.",
+    "items[].title": "2-4 words, short advantage label.",
+    "items[].text": "12-20 words, practical benefit statement.",
+    "items[].icon": "Use a valid Font Awesome class name without the style prefix."
+  },
+  "runtimeContextInputs": [
+    "industry",
+    "brandTone",
+    "targetAudience",
+    "pageGoal",
+    "language"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
+  }
+}

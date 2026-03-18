@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "image": {
+      "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Office meeting space with modern architecture",
+      "mode": "suggest"
+    }
+  },
+  "title": "Move faster with a reliable partner. Find your next step",
+  "text": "Compare options, activate services quickly, and scale with practical guidance from a team that supports long-term growth.",
+  "features": [
+    {
+      "icon": "fa-user",
+      "title": "Trusted by growing teams",
+      "text": "Proven delivery across multiple markets with repeat clients and consistent implementation outcomes."
+    },
+    {
+      "icon": "fa-gear",
+      "title": "Plans that fit your goals",
+      "text": "Choose onboarding, support, and optimization packages aligned to your timeline and budget."
+    }
+  ],
+  "cta": {
+    "label": "Find Out More",
+    "url": "#",
+    "target": "_self"
+  },
+  "contact": {
+    "icon": "fa-phone",
+    "label": "Need quick help? Speak with our team",
+    "phone": "+1 (305) 866-3245"
+  },
+  "stats": [
+    {
+      "value": "562+",
+      "label": "Active projects"
+    },
+    {
+      "value": "856+",
+      "label": "Client milestones"
+    }
+  ]
+}
