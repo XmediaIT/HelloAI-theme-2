@@ -90,6 +90,18 @@
       "templateFile": "BlockBuilder/Blocks/Blocks.html",
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
+    },
+    "AdvantagesHighlightCards": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "AdvantagesHighlightCards",
+      "type": "AdvantagesHighlightCards",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
     }
   },
   "assets": {
@@ -156,6 +168,17 @@
       "previewFile": null,
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
+    },
+    "Blocks_AdvantagesHighlightCards": {
+      "group": "Blocks",
+      "blockType": "AdvantagesHighlightCards",
+      "smartMeta": true,
+      "name": "AdvantagesHighlightCards",
+      "type": "AdvantagesHighlightCards",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
     }
   }
 }

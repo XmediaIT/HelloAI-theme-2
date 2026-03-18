@@ -793,3 +793,125 @@
 
       &__text
         font-size: 16px
+
+.EasyDNNTheme_HelloAI-theme-2
+  .eds-advantagesHighlightCardsBlock
+    padding: 78px 0 88px
+    background: var(--eds-bgColor)
+
+    &__headingWrap
+      text-align: center
+      max-width: 860px
+      margin: 0 auto
+
+    &__heading
+      margin: 0
+      color: var(--eds-darkColor)
+      font-size: 48px
+      line-height: 1
+      text-transform: uppercase
+
+    &__divider
+      display: inline-block
+      width: 112px
+      height: 5px
+      margin-top: 16px
+      background: var(--eds-primaryColor)
+
+    &__intro
+      margin: 28px auto 0
+      max-width: 760px
+      color: var(--eds-bodyColor)
+      font-size: 18px
+      line-height: 1.45
+
+    &__grid
+      margin-top: 64px
+
+    &__card
+      min-height: 384px
+      background: var(--eds-softContrast)
+      border-radius: 28px 0 0 0
+      padding: 78px 42px 46px
+      text-align: center
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: flex-start
+
+      &--featured
+        background: var(--eds-primaryColor)
+        color: var(--eds-whiteColor)
+        border-radius: 0
+
+        .eds-advantagesHighlightCardsBlock__icon,
+        .eds-advantagesHighlightCardsBlock__title,
+        .eds-advantagesHighlightCardsBlock__text
+          color: var(--eds-whiteColor)
+
+    &__icon
+      color: var(--eds-darkColor)
+      font-size: 58px
+      line-height: 1
+
+    &__title
+      margin: 40px 0 0
+      color: var(--eds-primaryColor)
+      font-size: 24px
+      line-height: 1.1
+      text-transform: uppercase
+
+    &__text
+      margin: 26px 0 0
+      color: var(--eds-bodyColor)
+      font-size: 18px
+      line-height: 1.8
+      max-width: 320px
+
+  @media (max-width: 1199.98px)
+    .eds-advantagesHighlightCardsBlock
+      &__card
+        min-height: 352px
+        padding: 64px 28px 38px
+
+      &__text
+        max-width: 100%
+
+  @media (max-width: 991.98px)
+    .eds-advantagesHighlightCardsBlock
+      &__grid
+        row-gap: 24px
+
+      &__card
+        min-height: 0
+        border-radius: 28px
+
+      &__title
+        margin-top: 28px
+
+  @media (max-width: 767.98px)
+    .eds-advantagesHighlightCardsBlock
+      padding: 60px 0
+
+      &__heading
+        font-size: 34px
+
+      &__intro
+        margin-top: 22px
+        font-size: 16px
+
+      &__grid
+        margin-top: 36px
+
+      &__card
+        padding: 44px 24px 32px
+
+      &__icon
+        font-size: 46px
+
+      &__title
+        font-size: 20px
+
+      &__text
+        margin-top: 18px
+        font-size: 16px
