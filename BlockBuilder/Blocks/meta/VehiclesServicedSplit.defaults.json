@@ -1,0 +1,93 @@
+{
+  "leftIntro": {
+    "eyebrow": "Why Choose Quote Nine?",
+    "text": "Quote Nine combines premium vehicle access, trusted service partnerships, and concierge-level support so every rental, purchase, or maintenance booking feels clear, protected, and effortless from the first call to the final handover."
+  },
+  "services": [
+    {
+      "icon": "fa-tags",
+      "title": "TRANSPARENT PRICING",
+      "text": "Every quote is clearly itemized so clients can compare premium vehicles, optional protection, and delivery services without hidden fees or unexpected last-minute costs."
+    },
+    {
+      "icon": "fa-warehouse",
+      "title": "FIND GARAGE",
+      "text": "Our network helps drivers secure vetted garage support, collection points, and certified maintenance locations across key cities and travel routes."
+    },
+    {
+      "icon": "fa-shield-halved",
+      "title": "PREMIUM INSURANCE",
+      "text": "Tailored protection packages cover luxury, family, business, and performance rentals with flexible terms designed around how and where clients drive."
+    },
+    {
+      "icon": "fa-headset",
+      "title": "PREMIUM SUPPORT",
+      "text": "Dedicated advisors stay available before, during, and after delivery to coordinate updates, extend bookings, and resolve issues quickly."
+    }
+  ],
+  "stats": [
+    {
+      "value": "2K+",
+      "label": "SOLD VEHICLES"
+    },
+    {
+      "value": "99%+",
+      "label": "SATISFIED CUSTOMERS"
+    }
+  ],
+  "rightIntro": {
+    "eyebrow": "This Is What We Do",
+    "heading": "Discover what sets us apart from other car rental services."
+  },
+  "images": {
+    "primary": {
+      "src": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1100&q=80",
+      "alt": "Luxury performance car inside a modern garage",
+      "mode": "suggest"
+    },
+    "secondary": {
+      "src": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1100&q=80",
+      "alt": "Blue premium coupe parked outdoors at sunset",
+      "mode": "suggest"
+    },
+    "badgeValue": "15+",
+    "badgeLine1": "YEARS OF",
+    "badgeLine2": "EXPERIENCE"
+  },
+  "featurePanel": {
+    "eyebrow": "Great Features!",
+    "text": "From executive rentals and protected bookings to aftercare, transport, and contract support, our team builds a premium vehicle experience around safety, trust, and speed.",
+    "columns": [
+      {
+        "items": [
+          "SAFETY",
+          "TRANSPARENCY",
+          "TRUST",
+          "SAFE COMMUNITY",
+          "ELEGANCE",
+          "DESIGN"
+        ]
+      },
+      {
+        "items": [
+          "SUPPORT",
+          "COMMUNICATION",
+          "INSURANCE",
+          "GREAT PRICING",
+          "TESTING",
+          "TRANSPORT"
+        ]
+      },
+      {
+        "items": [
+          "INVOICES",
+          "SUPER FEEDBACK",
+          "FAST SALES",
+          "WARRANTY",
+          "FREE CLEANING",
+          "LEASING"
+        ]
+      }
+    ]
+  }
+}

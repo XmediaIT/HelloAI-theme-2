@@ -1,0 +1,52 @@
+{
+  "description": "Editorial automotive showcase section with service highlights, large stats, overlapping images, an experience badge, and a three-column feature card.",
+  "goals": [
+    "Keep service titles exactly as specified and in uppercase",
+    "Preserve exactly four service items, two stats, and three feature-list columns",
+    "Maintain a premium automotive tone with concise, high-clarity supporting copy"
+  ],
+  "image": {
+    "allowedModes": [
+      "keep",
+      "suggest",
+      "library",
+      "generate",
+      "manual"
+    ],
+    "preferredMode": "suggest",
+    "subjectHints": [
+      "premium performance car",
+      "dealership showroom car",
+      "luxury coupe",
+      "automotive service environment"
+    ]
+  },
+  "fieldGuidance": {
+    "leftIntro.eyebrow": "Keep this exact phrase unless the design direction changes.",
+    "services[].title": "Keep these titles exactly as provided in the brief and preserve uppercase styling.",
+    "services[].text": "Use 16-26 words explaining one practical customer benefit.",
+    "stats[].value": "Use short, bold numeric proof points such as 2K+ or 99%+.",
+    "featurePanel.columns[].items[]": "Use single benefit phrases in uppercase.",
+    "images.badgeValue": "Use a short numeric proof point such as 15+."
+  },
+  "runtimeContextInputs": [
+    "brandTone",
+    "vehicleOffering",
+    "serviceRegion",
+    "targetAudience",
+    "pageGoal"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
+  }
+}
