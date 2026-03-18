@@ -91,6 +91,18 @@
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
     },
+    "VehiclesServicedSplit": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "VehiclesServicedSplit",
+      "type": "VehiclesServicedSplit",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/VehiclesServicedSplit.schema.json"
+    },
     "AdvantagesHighlightCards": {
       "group": "Blocks",
       "cssPacks": [
@@ -168,6 +180,17 @@
       "previewFile": null,
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
+    },
+    "Blocks_VehiclesServicedSplit": {
+      "group": "Blocks",
+      "blockType": "VehiclesServicedSplit",
+      "smartMeta": true,
+      "name": "VehiclesServicedSplit",
+      "type": "VehiclesServicedSplit",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/VehiclesServicedSplit.schema.json"
     },
     "Blocks_AdvantagesHighlightCards": {
       "group": "Blocks",

@@ -1,0 +1,51 @@
+{
+  "description": "Editorial automotive promo section with left-aligned image, centered content panel, four service highlights, and a single outlined CTA.",
+  "goals": [
+    "Keep the copy premium, concise, and automotive-focused",
+    "Preserve exactly four feature items for balanced two-column layout",
+    "Maintain a strong contrast between the image area and the light content panel"
+  ],
+  "image": {
+    "allowedModes": [
+      "keep",
+      "suggest",
+      "library",
+      "generate",
+      "manual"
+    ],
+    "preferredMode": "suggest",
+    "subjectHints": [
+      "premium car exterior",
+      "sports coupe on open road",
+      "dealership hero vehicle",
+      "automotive service lifestyle"
+    ]
+  },
+  "fieldGuidance": {
+    "heading": "Use 2-4 words in uppercase title case.",
+    "description": "Use 20-34 words with a premium dealership tone.",
+    "items[].text": "Use 5-12 words and describe one service capability per item.",
+    "button.label": "Use 2-4 words in uppercase.",
+    "items[].icon": "Use a Font Awesome class such as fa-check."
+  },
+  "runtimeContextInputs": [
+    "brandTone",
+    "vehicleTypes",
+    "serviceRegion",
+    "targetAudience",
+    "pageGoal"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
+  }
+}

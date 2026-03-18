@@ -795,6 +795,207 @@
         font-size: 16px
 
 .EasyDNNTheme_HelloAI-theme-2
+  .eds-vehiclesServicedSplitBlock
+    background: var(--eds-bgColor)
+    border-bottom: 4px solid var(--eds-primaryColor)
+
+    &__media
+      margin: 0
+      min-height: 100%
+      height: 100%
+
+    &__image
+      display: block
+      width: 100%
+      min-height: 620px
+      height: 100%
+      object-fit: cover
+      object-position: center center
+
+    &__panel
+      min-height: 620px
+      height: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+      padding: 72px 48px
+      background: var(--eds-softContrast)
+
+    &__content
+      width: 100%
+      max-width: 620px
+      text-align: center
+
+    &__heading
+      margin: 0
+      color: var(--eds-darkColor)
+      font-size: 60px
+      line-height: .92
+      text-transform: uppercase
+      letter-spacing: .02em
+
+    &__divider
+      display: block
+      width: 116px
+      height: 4px
+      margin: 20px auto 30px
+      background: var(--eds-primaryColor)
+
+    &__text
+      margin: 0 auto
+      max-width: 540px
+      color: var(--eds-mutedText)
+      font-size: 22px
+      line-height: 1.6
+
+    &__list
+      list-style: none
+      margin: 44px 0 0
+      padding: 0
+      display: grid
+      grid-template-columns: repeat(2, minmax(0, 1fr))
+      column-gap: 28px
+      row-gap: 20px
+      text-align: left
+
+    &__listItem
+      display: flex
+      align-items: flex-start
+      gap: 14px
+      color: var(--eds-darkColor)
+      font-size: 20px
+      font-weight: 700
+      line-height: 1.45
+
+    &__listIcon
+      width: 34px
+      min-width: 34px
+      height: 34px
+      border-radius: 50%
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      background: var(--eds-whiteColor)
+      color: var(--eds-primaryColor)
+      font-size: 14px
+      box-shadow: 0 0 0 1px var(--eds-softBg)
+
+    &__actions
+      margin-top: 48px
+      display: flex
+      justify-content: center
+
+    &__button
+      min-width: 280px
+      padding: 20px 32px
+      border: 2px solid var(--eds-borderColor)
+      background: transparent
+      color: var(--eds-darkColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 27px
+      font-weight: 700
+      line-height: 1
+      letter-spacing: .04em
+      text-transform: uppercase
+      text-align: center
+      transition: border-color .2s ease, color .2s ease, background-color .2s ease
+
+      &:hover,
+      &:focus-visible
+        border-color: var(--eds-primaryColor)
+        color: var(--eds-primaryColor)
+        background: var(--eds-whiteColor)
+
+  @media (max-width: 1399.98px)
+    .eds-vehiclesServicedSplitBlock
+      &__panel
+        padding: 64px 40px
+
+      &__heading
+        font-size: 52px
+
+      &__text
+        font-size: 20px
+
+      &__listItem
+        font-size: 18px
+
+  @media (max-width: 991.98px)
+    .eds-vehiclesServicedSplitBlock
+      &__image
+        min-height: 420px
+
+      &__panel
+        min-height: 0
+        padding: 56px 32px
+
+      &__content
+        max-width: 100%
+
+      &__heading
+        font-size: 46px
+
+      &__text
+        max-width: 660px
+
+      &__list
+        grid-template-columns: 1fr
+
+      &__actions
+        margin-top: 40px
+
+  @media (max-width: 767.98px)
+    .eds-vehiclesServicedSplitBlock
+      &__image
+        min-height: 300px
+
+      &__panel
+        padding: 44px 20px
+
+      &__heading
+        font-size: 34px
+
+      &__divider
+        width: 92px
+        margin: 18px auto 24px
+
+      &__text
+        font-size: 17px
+
+      &__list
+        margin-top: 30px
+        row-gap: 16px
+
+      &__listItem
+        gap: 12px
+        font-size: 17px
+
+      &__listIcon
+        width: 30px
+        min-width: 30px
+        height: 30px
+
+      &__button
+        min-width: 0
+        width: 100%
+        max-width: 320px
+        padding: 18px 24px
+        font-size: 22px
+
+      &__actions
+        margin-top: 32px
+
+  @media (max-width: 479.98px)
+    .eds-vehiclesServicedSplitBlock
+      &__heading
+        font-size: 30px
+
+      &__text
+        font-size: 16px
+
+      &__listItem
+        font-size: 16px
+
   .eds-advantagesHighlightCardsBlock
     padding: 78px 0 88px
     background: var(--eds-bgColor)
