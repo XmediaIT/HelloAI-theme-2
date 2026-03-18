@@ -1,0 +1,51 @@
+{
+  "description": "Split hero block with dark image side, light features panel, CTA, contact strip, and stat counters.",
+  "goals": [
+    "Keep strong split layout proportions on desktop",
+    "Keep features and stats as repeaters",
+    "Maintain concise conversion-focused copy"
+  ],
+  "image": {
+    "allowedModes": [
+      "keep",
+      "suggest",
+      "library",
+      "generate",
+      "manual"
+    ],
+    "preferredMode": "suggest",
+    "subjectHints": [
+      "people at work",
+      "team collaboration",
+      "modern workspace",
+      "neutral lifestyle"
+    ]
+  },
+  "fieldGuidance": {
+    "title": "8-16 words, include one highlighted phrase.",
+    "features[].title": "2-6 words.",
+    "features[].text": "8-16 words.",
+    "stats[].value": "Short numeric value with optional plus sign.",
+    "contact.phone": "Use real callable phone format."
+  },
+  "runtimeContextInputs": [
+    "industry",
+    "brandTone",
+    "targetAudience",
+    "pageGoal",
+    "language"
+  ],
+  "allowedActions": [
+    "rewrite_text",
+    "shorten_text",
+    "expand_text",
+    "tone_adjust",
+    "translate_text"
+  ],
+  "constraints": {
+    "contentOnly": true,
+    "preserveStructure": true,
+    "preserveClasses": true,
+    "preserveEditorHooks": true
+  }
+}

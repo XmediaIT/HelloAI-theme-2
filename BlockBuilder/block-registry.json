@@ -42,6 +42,66 @@
         "blocks-interactive.css"
       ],
       "previewFile": null
+    },
+    "HeroOverlayCentered": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "HeroOverlayCentered",
+      "type": "HeroOverlayCentered",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroOverlayCentered.schema.json"
+    },
+    "FeatureImageChecklist": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "FeatureImageChecklist",
+      "type": "FeatureImageChecklist",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
+    },
+    "HeroFeatureSplitStats": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "HeroFeatureSplitStats",
+      "type": "HeroFeatureSplitStats",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
+    },
+    "CustomerServiceGrid": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "CustomerServiceGrid",
+      "type": "CustomerServiceGrid",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
+    },
+    "AdvantagesHighlightCards": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "AdvantagesHighlightCards",
+      "type": "AdvantagesHighlightCards",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
     }
   },
   "assets": {
@@ -64,6 +124,61 @@
       "group": "Accordions",
       "blockType": "FAQ",
       "smartMeta": true
+    },
+    "Blocks_HeroOverlayCentered": {
+      "group": "Blocks",
+      "blockType": "HeroOverlayCentered",
+      "smartMeta": true,
+      "name": "HeroOverlayCentered",
+      "type": "HeroOverlayCentered",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroOverlayCentered.schema.json"
+    },
+    "Blocks_FeatureImageChecklist": {
+      "group": "Blocks",
+      "blockType": "FeatureImageChecklist",
+      "smartMeta": true,
+      "name": "FeatureImageChecklist",
+      "type": "FeatureImageChecklist",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/FeatureImageChecklist.schema.json"
+    },
+    "Blocks_HeroFeatureSplitStats": {
+      "group": "Blocks",
+      "blockType": "HeroFeatureSplitStats",
+      "smartMeta": true,
+      "name": "HeroFeatureSplitStats",
+      "type": "HeroFeatureSplitStats",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/HeroFeatureSplitStats.schema.json"
+    },
+    "Blocks_CustomerServiceGrid": {
+      "group": "Blocks",
+      "blockType": "CustomerServiceGrid",
+      "smartMeta": true,
+      "name": "CustomerServiceGrid",
+      "type": "CustomerServiceGrid",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/CustomerServiceGrid.schema.json"
+    },
+    "Blocks_AdvantagesHighlightCards": {
+      "group": "Blocks",
+      "blockType": "AdvantagesHighlightCards",
+      "smartMeta": true,
+      "name": "AdvantagesHighlightCards",
+      "type": "AdvantagesHighlightCards",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null,
+      "smart": true,
+      "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
     }
   }
 }
