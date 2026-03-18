@@ -1,9 +1,9 @@
 {
-  "description": "Editorial automotive promo section with left-aligned image, centered content panel, four service highlights, and a single outlined CTA.",
+  "description": "Editorial automotive showcase section with service highlights, large stats, overlapping images, an experience badge, and a three-column feature card.",
   "goals": [
-    "Keep the copy premium, concise, and automotive-focused",
-    "Preserve exactly four feature items for balanced two-column layout",
-    "Maintain a strong contrast between the image area and the light content panel"
+    "Keep service titles exactly as specified and in uppercase",
+    "Preserve exactly four service items, two stats, and three feature-list columns",
+    "Maintain a premium automotive tone with concise, high-clarity supporting copy"
   ],
   "image": {
     "allowedModes": [
@@ -15,22 +15,23 @@
     ],
     "preferredMode": "suggest",
     "subjectHints": [
-      "premium car exterior",
-      "sports coupe on open road",
-      "dealership hero vehicle",
-      "automotive service lifestyle"
+      "premium performance car",
+      "dealership showroom car",
+      "luxury coupe",
+      "automotive service environment"
     ]
   },
   "fieldGuidance": {
-    "heading": "Use 2-4 words in uppercase title case.",
-    "description": "Use 20-34 words with a premium dealership tone.",
-    "items[].text": "Use 5-12 words and describe one service capability per item.",
-    "button.label": "Use 2-4 words in uppercase.",
-    "items[].icon": "Use a Font Awesome class such as fa-check."
+    "leftIntro.eyebrow": "Keep this exact phrase unless the design direction changes.",
+    "services[].title": "Keep these titles exactly as provided in the brief and preserve uppercase styling.",
+    "services[].text": "Use 16-26 words explaining one practical customer benefit.",
+    "stats[].value": "Use short, bold numeric proof points such as 2K+ or 99%+.",
+    "featurePanel.columns[].items[]": "Use single benefit phrases in uppercase.",
+    "images.badgeValue": "Use a short numeric proof point such as 15+."
   },
   "runtimeContextInputs": [
     "brandTone",
-    "vehicleTypes",
+    "vehicleOffering",
     "serviceRegion",
     "targetAudience",
     "pageGoal"

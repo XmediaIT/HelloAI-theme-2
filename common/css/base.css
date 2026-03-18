@@ -1322,203 +1322,395 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock {
-  background: var(--eds-bgColor);
-  border-bottom: 4px solid var(--eds-primaryColor);
+  padding: 108px 0 116px;
+  background: var(--eds-softContrast);
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__media {
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__inner {
+  max-width: 1560px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 70px;
+  align-items: start;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__column {
+  min-width: 0;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__eyebrow {
   margin: 0;
-  min-height: 100%;
-  height: 100%;
+  color: var(--eds-primaryColor);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__lead, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__supportingText {
+  margin: 28px 0 0;
+  max-width: 700px;
+  color: var(--eds-mutedText);
+  font-size: 20px;
+  line-height: 1.65;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__services {
+  margin-top: 64px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceItem {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  padding: 0 0 26px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--eds-primaryColor);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceItem:last-child {
+  margin-bottom: 0;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceIcon {
+  color: var(--eds-borderColor);
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceTitle {
+  margin: 0;
+  color: var(--eds-darkColor);
+  font-size: 28px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceText {
+  margin: 18px 0 0;
+  color: var(--eds-bodyColor);
+  font-size: 18px;
+  line-height: 1.55;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__stats {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statValue {
+  color: var(--eds-primaryColor);
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statLabel {
+  margin-top: 22px;
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px;
+  border: 2px solid var(--eds-borderColor);
+  background: transparent;
+  color: var(--eds-darkColor);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__intro--right {
+  max-width: 860px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
+  margin: 24px 0 0;
+  max-width: 860px;
+  color: var(--eds-darkColor);
+  font-size: 78px;
+  line-height: 0.98;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__mediaStack {
+  position: relative;
+  margin-top: 52px;
+  min-height: 560px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap {
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 34px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap--back {
+  top: 0;
+  left: 0;
+  width: 57%;
+  max-width: 520px;
+  box-shadow: 0 16px 36px var(--eds-softBg);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap--front {
+  right: 0;
+  bottom: 0;
+  width: 56%;
+  max-width: 500px;
+  z-index: 2;
+  box-shadow: 0 22px 48px var(--eds-borderColor);
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__image {
   display: block;
   width: 100%;
-  min-height: 620px;
-  height: 100%;
+  aspect-ratio: 1/1;
   object-fit: cover;
-  object-position: center center;
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__panel {
-  min-height: 620px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 72px 48px;
-  background: var(--eds-softContrast);
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__content {
-  width: 100%;
-  max-width: 620px;
-  text-align: center;
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
-  margin: 0;
-  color: var(--eds-darkColor);
-  font-size: 60px;
-  line-height: 0.92;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__divider {
-  display: block;
-  width: 116px;
-  height: 4px;
-  margin: 20px auto 30px;
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge {
+  position: absolute;
+  left: 90px;
+  bottom: 72px;
+  z-index: 3;
+  width: 150px;
+  min-height: 150px;
+  padding: 20px 18px;
+  border-radius: 22px;
   background: var(--eds-primaryColor);
+  color: var(--eds-whiteColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__text {
-  margin: 0 auto;
-  max-width: 540px;
-  color: var(--eds-mutedText);
-  font-size: 22px;
-  line-height: 1.6;
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge strong {
+  display: block;
+  font-size: 66px;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__list {
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge span {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureIntro {
+  margin-top: 40px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureCard {
+  margin-top: 28px;
+  padding: 34px 36px;
+  border-radius: 22px;
+  background: var(--eds-whiteColor);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  box-shadow: 0 14px 34px var(--eds-softBg);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureList {
   list-style: none;
-  margin: 44px 0 0;
+  margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 28px;
-  row-gap: 20px;
-  text-align: left;
+  gap: 18px;
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listItem {
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureItem {
   display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  color: var(--eds-darkColor);
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.45;
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listIcon {
-  width: 34px;
-  min-width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  background: var(--eds-whiteColor);
-  color: var(--eds-primaryColor);
-  font-size: 14px;
-  box-shadow: 0 0 0 1px var(--eds-softBg);
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__actions {
-  margin-top: 48px;
-  display: flex;
-  justify-content: center;
-}
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__button {
-  min-width: 280px;
-  padding: 20px 32px;
-  border: 2px solid var(--eds-borderColor);
-  background: transparent;
+  gap: 12px;
   color: var(--eds-darkColor);
-  font-family: var(--eds_headingsFont);
-  font-size: 27px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  text-align: center;
-  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 }
-.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__button:hover, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__button:focus-visible {
-  border-color: var(--eds-primaryColor);
+.EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureIcon {
   color: var(--eds-primaryColor);
-  background: var(--eds-whiteColor);
+  font-size: 13px;
 }
-@media (max-width: 1399.98px) {
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__panel {
-    padding: 64px 40px;
+@media (max-width: 1599.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__inner {
+    gap: 48px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
-    font-size: 52px;
+    font-size: 66px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__text {
-    font-size: 20px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statValue {
+    font-size: 120px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listItem {
-    font-size: 18px;
+}
+@media (max-width: 1399.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock {
+    padding: 92px 0 104px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceItem {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 22px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceIcon {
+    font-size: 46px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceTitle {
+    font-size: 24px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
+    font-size: 58px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__mediaStack {
+    min-height: 500px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge {
+    left: 72px;
+    bottom: 54px;
+    width: 136px;
+    min-height: 136px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge strong {
+    font-size: 58px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureCard {
+    padding: 28px;
+    gap: 22px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__inner {
+    grid-template-columns: 1fr;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__column--right {
+    order: 2;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__mediaStack {
+    max-width: 860px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__lead, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__supportingText {
+    max-width: 860px;
   }
 }
 @media (max-width: 991.98px) {
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__image {
-    min-height: 420px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock {
+    padding: 76px 0 88px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__panel {
-    min-height: 0;
-    padding: 56px 32px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__eyebrow {
+    font-size: 16px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__content {
-    max-width: 100%;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__lead, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__supportingText {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__services {
+    margin-top: 46px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceItem {
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 18px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceIcon {
+    font-size: 38px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceTitle {
+    font-size: 22px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceText {
+    margin-top: 14px;
+    font-size: 17px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__stats {
+    gap: 24px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statValue {
+    font-size: 98px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statLabel {
+    min-height: 68px;
+    font-size: 16px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
-    font-size: 46px;
+    margin-top: 18px;
+    font-size: 48px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__text {
-    max-width: 660px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__mediaStack {
+    margin-top: 38px;
+    min-height: 440px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__list {
-    grid-template-columns: 1fr;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge {
+    left: 48px;
+    bottom: 44px;
+    width: 126px;
+    min-height: 126px;
+    padding: 18px 16px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__actions {
-    margin-top: 40px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge strong {
+    font-size: 52px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge span {
+    font-size: 15px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureCard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (max-width: 767.98px) {
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__image {
-    min-height: 300px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock {
+    padding: 60px 0 72px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__panel {
-    padding: 44px 20px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__inner {
+    gap: 40px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
-    font-size: 34px;
+    font-size: 38px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__divider {
-    width: 92px;
-    margin: 18px auto 24px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__stats {
+    grid-template-columns: 1fr;
+    gap: 22px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__text {
-    font-size: 17px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statValue {
+    font-size: 82px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__list {
-    margin-top: 30px;
-    row-gap: 16px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__mediaStack {
+    min-height: 0;
+    display: grid;
+    gap: 18px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listItem {
-    gap: 12px;
-    font-size: 17px;
-  }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listIcon {
-    width: 30px;
-    min-width: 30px;
-    height: 30px;
-  }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__button {
-    min-width: 0;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap {
+    position: relative;
     width: 100%;
-    max-width: 320px;
-    padding: 18px 24px;
-    font-size: 22px;
+    max-width: none;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__actions {
-    margin-top: 32px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap--back, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__imageWrap--front {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    box-shadow: 0 14px 30px var(--eds-borderColor);
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__badge {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: 132px;
+    min-height: 132px;
+    margin-top: -42px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureIntro {
+    margin-top: 28px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureCard {
+    grid-template-columns: 1fr;
+    padding: 24px 22px;
   }
 }
 @media (max-width: 479.98px) {
   .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__heading {
-    font-size: 30px;
+    font-size: 32px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__text {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__lead, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__supportingText, .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceText {
     font-size: 16px;
   }
-  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__listItem {
-    font-size: 16px;
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__serviceTitle {
+    font-size: 20px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__statValue {
+    font-size: 72px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-vehiclesServicedSplitBlock__featureItem {
+    font-size: 15px;
   }
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-advantagesHighlightCardsBlock {
