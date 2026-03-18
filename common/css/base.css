@@ -49,7 +49,7 @@ a {
 }
 
 .eds_main {
-  min-height: 40vh;
+  min-height: 45vh;
 }
 
 .eds_shellPlaceholder {
@@ -71,6 +71,7 @@ a {
   z-index: 20;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds_siteHeader.is-sticky-ready {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -326,7 +327,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .EasyDNNTheme_HelloAI-theme-2 .eds_footerTop,
-  .EasyDNNTheme_HelloAI-theme-2 .eds_footerBottom {
+.EasyDNNTheme_HelloAI-theme-2 .eds_footerBottom {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -527,8 +528,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1920px;
 }
 
-/* Font Awesome vendor is loaded from common/vendors/fontawesome/css/all.min.css */
-/* DNN styling should be added only after preview approval. */
+/* Font Awesome vendor is loaded from common/vendors/fontawesome/css/all.min.css */ /* DNN styling should be added only after preview approval. */
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock {
   position: relative;
   min-height: 640px;
@@ -541,7 +541,8 @@ h1, h2, h3, h4, h5, h6 {
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__overlay {
   position: absolute;
@@ -603,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991.98px) {
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock,
-  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
     min-height: 520px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__title {
@@ -617,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 767.98px) {
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock,
-  .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
+.EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__inner {
     min-height: 460px;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-heroOverlayCenteredBlock__eyebrow {
@@ -650,7 +651,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: auto;
   min-height: 420px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-featureImageChecklistBlock__promoCard {
   position: absolute;
@@ -875,8 +877,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   min-height: 500px;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 .EasyDNNTheme_HelloAI-theme-2 .eds-heroFeatureSplitStatsBlock__heroOverlay {
   position: absolute;
