@@ -1,0 +1,32 @@
+{
+  "image": {
+    "src": "https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=1600&q=80",
+    "alt": "Premium sports car parked on an open road at sunset",
+    "mode": "suggest"
+  },
+  "heading": "Vehicles Serviced",
+  "description": "From luxury sedans and hybrid SUVs to diesel work vehicles and high-performance models, our certified technicians deliver dealership-grade servicing with clear communication, dependable coverage, and maintenance plans built around real driving needs.",
+  "items": [
+    {
+      "icon": "fa-check",
+      "text": "Certified servicing for luxury, hybrid, diesel, and performance vehicles"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Nationwide support with trusted service coverage"
+    },
+    {
+      "icon": "fa-check",
+      "text": "24/7 roadside assistance for unexpected breakdowns"
+    },
+    {
+      "icon": "fa-check",
+      "text": "Flexible maintenance and inspection plans for private and fleet owners"
+    }
+  ],
+  "button": {
+    "label": "View Full List",
+    "url": "#",
+    "target": "_self"
+  }
+}

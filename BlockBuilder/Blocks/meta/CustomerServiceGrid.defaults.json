@@ -1,0 +1,33 @@
+{
+  "heading": "Customer Service",
+  "items": [
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Fast start setup",
+      "title": "Rapid Onboarding",
+      "text": "Launch quickly with a guided setup checklist, stakeholder alignment, and clear first-week actions.",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Anywhere booking",
+      "title": "Mobile Requests",
+      "text": "Submit requests from any device, track progress, and confirm details without back-and-forth.",
+      "roundRight": true
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Flexible pricing",
+      "title": "Special Packages",
+      "text": "Mix monthly plans, project bundles, and add-ons to match changing workload and team capacity.",
+      "roundRight": false
+    },
+    {
+      "icon": "fa-plus",
+      "eyebrow": "Always covered",
+      "title": "Priority Support",
+      "text": "Get escalation paths, response targets, and continuity support when timelines are critical.",
+      "roundRight": true
+    }
+  ]
+}

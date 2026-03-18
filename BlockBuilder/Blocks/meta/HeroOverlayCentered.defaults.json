@@ -1,0 +1,18 @@
+{
+  "image": {
+    "src": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1920&q=80",
+    "alt": "Team workshop session in a modern studio",
+    "mode": "suggest"
+  },
+  "eyebrow": "Find What Are You Looking For",
+  "title": "We Shape Design With Our Clients",
+  "button": {
+    "label": "Read More",
+    "url": "#",
+    "target": "_self"
+  },
+  "overlay": {
+    "tone": "primary",
+    "intensity": 0.8
+  }
+}

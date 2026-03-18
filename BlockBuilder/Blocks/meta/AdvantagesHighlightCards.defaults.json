@@ -1,0 +1,24 @@
+{
+  "heading": "Our Advantages",
+  "intro": "Use this section to highlight three reasons clients choose your team, with one featured point emphasized in the center.",
+  "items": [
+    {
+      "icon": "fa-gear",
+      "title": "Scalable Delivery",
+      "text": "Flexible workflows and structured onboarding help new teams get started quickly without disrupting existing operations.",
+      "featured": false
+    },
+    {
+      "icon": "fa-sack-dollar",
+      "title": "Transparent Pricing",
+      "text": "Clear package options and visible scope details make it easier to plan budgets, compare tiers, and approve next steps.",
+      "featured": true
+    },
+    {
+      "icon": "fa-shield-halved",
+      "title": "Trusted Support",
+      "text": "Dedicated contacts, response targets, and follow-up reviews keep every project moving with confidence and continuity.",
+      "featured": false
+    }
+  ]
+}

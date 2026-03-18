@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "AdvantagesHighlightCards.schema.json",
+  "title": "AdvantagesHighlightCards",
+  "type": "object",
+  "required": ["heading", "intro", "items"],
+  "properties": {
+    "heading": { "type": "string", "minLength": 1 },
+    "intro": { "type": "string", "minLength": 1 },
+    "items": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["icon", "title", "text", "featured"],
+        "properties": {
+          "icon": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 1 },
+          "featured": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
