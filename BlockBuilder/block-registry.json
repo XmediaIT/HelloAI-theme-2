@@ -114,6 +114,16 @@
       "templateFile": "BlockBuilder/Blocks/Blocks.html",
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
+    },
+    "ProcessTimelineFeature": {
+      "group": "Blocks",
+      "cssPacks": [
+        "blocks-content.css"
+      ],
+      "previewFile": null,
+      "name": "ProcessTimelineFeature",
+      "type": "ProcessTimelineFeature",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html"
     }
   },
   "assets": {
@@ -202,6 +212,15 @@
       "previewFile": null,
       "smart": true,
       "meta": "BlockBuilder/Blocks/meta/AdvantagesHighlightCards.schema.json"
+    },
+    "Blocks_ProcessTimelineFeature": {
+      "group": "Blocks",
+      "blockType": "ProcessTimelineFeature",
+      "smartMeta": false,
+      "name": "ProcessTimelineFeature",
+      "type": "ProcessTimelineFeature",
+      "templateFile": "BlockBuilder/Blocks/Blocks.html",
+      "previewFile": null
     }
   }
 }

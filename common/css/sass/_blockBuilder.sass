@@ -1310,3 +1310,335 @@
       &__text
         margin-top: 18px
         font-size: 16px
+
+
+
+.EasyDNNTheme_HelloAI-theme-2
+  .eds-processTimelineFeatureBlock
+    padding: 108px 0
+    background: var(--eds-softBg)
+
+    &__intro
+      max-width: 760px
+      margin: 0 auto 68px
+      text-align: center
+      animation: edsProcessFadeIn .7s ease-out both
+
+    &__eyebrow
+      margin: 0
+      color: var(--eds-primaryColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 18px
+      line-height: 1
+      font-weight: 700
+      letter-spacing: .18em
+      text-transform: uppercase
+
+    &__title
+      margin: 18px 0 0
+      color: var(--eds-darkColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 62px
+      line-height: .92
+      font-weight: 700
+      letter-spacing: .03em
+      text-transform: uppercase
+
+    &__divider
+      display: block
+      width: 112px
+      height: 3px
+      margin: 20px auto 24px
+      background: var(--eds-primaryColor)
+
+    &__description
+      margin: 0
+      color: var(--eds-mutedText)
+      font-size: 18px
+      line-height: 1.6
+
+    &__layout
+      align-items: stretch
+
+    &__timeline
+      position: relative
+      display: grid
+      gap: 42px
+      padding-left: 18px
+
+      &::before
+        content: ""
+        position: absolute
+        top: 12px
+        bottom: 12px
+        left: 27px
+        width: 2px
+        background: rgba(17, 17, 17, .12)
+
+    &__step
+      position: relative
+      display: grid
+      grid-template-columns: 104px 1fr
+      gap: 24px
+      align-items: start
+      opacity: 0
+      transform: translateY(28px)
+      animation: edsProcessFadeIn .7s ease-out forwards
+
+      &:nth-child(2)
+        animation-delay: .12s
+
+      &:nth-child(3)
+        animation-delay: .24s
+
+      &:nth-child(4)
+        animation-delay: .36s
+
+      &:hover .eds-processTimelineFeatureBlock__stepNumber,
+      &:hover .eds-processTimelineFeatureBlock__stepIcon,
+      &:focus-within .eds-processTimelineFeatureBlock__stepNumber,
+      &:focus-within .eds-processTimelineFeatureBlock__stepIcon
+        border-color: var(--eds-primaryColor)
+        color: var(--eds-primaryColor)
+        box-shadow: 0 18px 36px rgba(255, 100, 60, .14)
+
+      &:hover .eds-processTimelineFeatureBlock__stepTitle,
+      &:focus-within .eds-processTimelineFeatureBlock__stepTitle
+        transform: translateX(4px)
+
+    &__stepMarker
+      position: relative
+      display: flex
+      align-items: center
+      gap: 14px
+      z-index: 1
+
+    &__stepNumber,
+    &__stepIcon
+      width: 42px
+      height: 42px
+      border-radius: 50%
+      border: 2px solid rgba(17, 17, 17, .16)
+      background: var(--eds-whiteColor)
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      transition: border-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease
+
+    &__stepNumber
+      color: var(--eds-darkColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 22px
+      line-height: 1
+      font-weight: 700
+
+    &__stepIcon
+      color: var(--eds-mutedText)
+      font-size: 18px
+
+    &__stepContent
+      padding-top: 4px
+
+    &__stepTitle
+      margin: 0 0 12px
+      color: var(--eds-primaryColor)
+      font-family: var(--eds_headingsFont)
+      font-size: 34px
+      line-height: .95
+      font-weight: 700
+      letter-spacing: .01em
+      text-transform: uppercase
+      transition: transform .25s ease
+
+    &__stepText
+      max-width: 460px
+      margin: 0
+      color: var(--eds-mutedText)
+      font-size: 17px
+      line-height: 1.65
+
+    &__card
+      position: relative
+      overflow: hidden
+      min-height: 100%
+      border-radius: 30px
+      box-shadow: 0 30px 70px rgba(0, 0, 0, .12)
+      animation: edsProcessFadeIn .82s ease-out .14s both
+
+      &:hover .eds-processTimelineFeatureBlock__image,
+      &:focus-within .eds-processTimelineFeatureBlock__image
+        transform: scale(1.04)
+
+      &:hover .eds-processTimelineFeatureBlock__cardOverlay,
+      &:focus-within .eds-processTimelineFeatureBlock__cardOverlay
+        background: rgba(255, 255, 255, .94)
+
+    &__image
+      width: 100%
+      min-height: 690px
+      object-fit: cover
+      transition: transform .45s ease
+
+    &__cardOverlay
+      position: absolute
+      right: 24px
+      bottom: 24px
+      left: 24px
+      display: flex
+      align-items: center
+      justify-content: space-between
+      gap: 24px
+      padding: 26px 28px
+      border-radius: 24px
+      background: rgba(255, 255, 255, .86)
+      backdrop-filter: blur(10px)
+      transition: background .25s ease, transform .25s ease
+
+    &__cardText
+      flex: 1 1 auto
+      max-width: 420px
+      margin: 0
+      color: var(--eds-darkColor)
+      font-size: 17px
+      line-height: 1.6
+
+    &__button
+      flex: 0 0 auto
+      min-width: 176px
+      padding: 18px 28px 15px
+      border: 2px solid var(--eds-primaryColor)
+      border-radius: 8px
+      background: transparent
+      color: var(--eds-primaryColor)
+      font-family: var(--eds_defaultFont)
+      font-size: 15px
+      line-height: 1
+      font-weight: 700
+      letter-spacing: .14em
+      text-align: center
+      text-transform: uppercase
+      transition: background .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease
+
+      &:hover,
+      &:focus-visible
+        background: var(--eds-primaryColor)
+        color: var(--eds-whiteColor)
+        box-shadow: 0 14px 30px rgba(255, 100, 60, .24)
+        transform: translateY(-2px)
+
+  @keyframes edsProcessFadeIn
+    from
+      opacity: 0
+      transform: translateY(28px)
+    to
+      opacity: 1
+      transform: translateY(0)
+
+  @media (max-width: 1199.98px)
+    .eds-processTimelineFeatureBlock
+      padding: 92px 0
+
+      &__title
+        font-size: 54px
+
+      &__step
+        grid-template-columns: 92px 1fr
+        gap: 20px
+
+      &__stepTitle
+        font-size: 30px
+
+      &__image
+        min-height: 620px
+
+      &__cardOverlay
+        padding: 22px 24px
+
+  @media (max-width: 991.98px)
+    .eds-processTimelineFeatureBlock
+      padding: 80px 0
+
+      &__intro
+        margin-bottom: 52px
+
+      &__title
+        font-size: 46px
+
+      &__timeline
+        gap: 34px
+        margin-bottom: 12px
+
+      &__image
+        min-height: 540px
+
+      &__cardOverlay
+        flex-direction: column
+        align-items: flex-start
+
+      &__button
+        min-width: 160px
+
+  @media (max-width: 767.98px)
+    .eds-processTimelineFeatureBlock
+      padding: 68px 0
+
+      &__eyebrow
+        font-size: 16px
+
+      &__title
+        font-size: 38px
+
+      &__description
+        font-size: 17px
+
+      &__timeline
+        padding-left: 0
+
+        &::before
+          left: 20px
+
+      &__step
+        grid-template-columns: 1fr
+        gap: 18px
+
+      &__stepMarker
+        gap: 12px
+
+      &__stepTitle
+        font-size: 28px
+
+      &__stepText
+        max-width: none
+        font-size: 16px
+
+      &__image
+        min-height: 420px
+
+      &__cardOverlay
+        right: 16px
+        bottom: 16px
+        left: 16px
+        padding: 20px
+        border-radius: 20px
+
+      &__cardText
+        max-width: none
+
+      &__button
+        width: 100%
+
+  @media (prefers-reduced-motion: reduce)
+    .eds-processTimelineFeatureBlock__intro,
+    .eds-processTimelineFeatureBlock__step,
+    .eds-processTimelineFeatureBlock__card
+      animation: none
+      opacity: 1
+      transform: none
+
+    .eds-processTimelineFeatureBlock__image,
+    .eds-processTimelineFeatureBlock__cardOverlay,
+    .eds-processTimelineFeatureBlock__button,
+    .eds-processTimelineFeatureBlock__stepNumber,
+    .eds-processTimelineFeatureBlock__stepIcon,
+    .eds-processTimelineFeatureBlock__stepTitle
+      transition: none
