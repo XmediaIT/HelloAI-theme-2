@@ -48,10 +48,6 @@ a {
   font-family: var(--eds_defaultFont);
 }
 
-.eds_main {
-  min-height: 45vh;
-}
-
 .eds_shellPlaceholder {
   padding: 64px 32px;
   background: var(--eds-whiteColor);
@@ -362,7 +358,6 @@ a {
 
 .eds_main {
   min-height: 40vh;
-  padding: 40px 0;
 }
 
 .EasyDNNTheme_HelloAI-theme-2 .edsmm_mainMenu {
