@@ -56,6 +56,14 @@
     transition: opacity .2s ease, transform .2s ease
     z-index: 30
 
+    &::before
+      content: ""
+      position: absolute
+      top: -14px
+      left: 0
+      right: 0
+      height: 14px
+
     li
       position: relative
 
@@ -79,6 +87,13 @@
     .edsmm_subLevel
       top: -11px
       left: calc(100% + 1px)
+
+      &::before
+        top: 0
+        left: -14px
+        right: auto
+        width: 14px
+        height: 100%
 
   .edsmm_mainLevel > li:hover > .edsmm_subLevel,
   .edsmm_mainLevel > li:focus-within > .edsmm_subLevel,
