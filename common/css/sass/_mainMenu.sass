@@ -2,25 +2,29 @@
   .edsmm_mainMenu
     width: 100%
 
-    ul
+    ol
       list-style: none
       margin: 0
       padding: 0
 
-  .edsmm_mainLevel
+  .edsmm_root
     display: flex
     align-items: center
     gap: 28px
     flex-wrap: nowrap
 
-    > li
+    > .edsmm_menuItem
       position: relative
       flex: 0 0 auto
 
-      > .edsmm_itemContainer
+      > span
         display: inline-flex
         align-items: center
         gap: 8px
+
+      > span > .edsmm_itemContainer
+        display: inline-flex
+        align-items: center
         min-height: 44px
         color: var(--eds-headerText)
         font-family: var(--eds_headingsFont)
@@ -31,18 +35,28 @@
         white-space: nowrap
         transition: color .2s ease
 
-      &:hover > .edsmm_itemContainer,
-      &:focus-within > .edsmm_itemContainer,
-      &.is-active > .edsmm_itemContainer
+      > span > .edsmm_childIndicator
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        color: var(--eds-headerText)
+        transition: color .2s ease, transform .2s ease
+
+        &::before
+          content: "\f107"
+          font-family: "Font Awesome 6 Free"
+          font-weight: 900
+          font-size: 10px
+
+      &:hover > span > .edsmm_itemContainer,
+      &:focus-within > span > .edsmm_itemContainer,
+      &.edsmm_active > span > .edsmm_itemContainer,
+      &:hover > span > .edsmm_childIndicator,
+      &:focus-within > span > .edsmm_childIndicator,
+      &.edsmm_active > span > .edsmm_childIndicator
         color: var(--eds-primaryColor)
 
-      &.edsmm_hasChild > .edsmm_itemContainer::after
-        content: "\f107"
-        font-family: "Font Awesome 6 Free"
-        font-weight: 900
-        font-size: 10px
-
-  .edsmm_subLevel
+  .edsmm_menuItem > [class^="edsmm_level_"]
     position: absolute
     top: calc(100% + 14px)
     left: 0
@@ -64,62 +78,101 @@
       right: 0
       height: 14px
 
-    li
+    .edsmm_menuItem
       position: relative
 
-    .edsmm_itemContainer
-      display: flex
-      align-items: center
-      justify-content: space-between
-      gap: 12px
-      padding: 10px 18px
-      color: var(--eds-headerText)
-      white-space: nowrap
-      font-size: 15px
-      line-height: 1.2
-      font-weight: 600
-      text-transform: uppercase
+      > span
+        display: flex
+        align-items: center
+        justify-content: space-between
+        gap: 12px
 
-      &:hover,
-      &:focus-visible
+      > span > .edsmm_itemContainer
+        display: flex
+        flex: 1 1 auto
+        align-items: center
+        justify-content: space-between
+        gap: 12px
+        padding: 10px 18px
+        color: var(--eds-headerText)
+        white-space: nowrap
+        font-size: 15px
+        line-height: 1.2
+        font-weight: 600
+        text-transform: uppercase
+        transition: color .2s ease
+
+        &:hover,
+        &:focus-visible
+          color: var(--eds-primaryColor)
+
+      > span > .edsmm_childIndicator
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        width: 44px
+        color: var(--eds-headerText)
+        transition: color .2s ease
+
+        &::before
+          content: "\f105"
+          font-family: "Font Awesome 6 Free"
+          font-weight: 900
+          font-size: 10px
+
+      .edsmm_menuItem:hover > span > .edsmm_childIndicator,
+      .edsmm_menuItem:focus-within > span > .edsmm_childIndicator,
+      .edsmm_menuItem.edsmm_active > span > .edsmm_childIndicator
         color: var(--eds-primaryColor)
 
-    .edsmm_subLevel
-      top: -11px
-      left: calc(100% + 1px)
+      > [class^="edsmm_level_"]
+        top: -11px
+        left: calc(100% + 1px)
 
-      &::before
-        top: 0
-        left: -14px
-        right: auto
-        width: 14px
-        height: 100%
+        &::before
+          top: 0
+          left: -14px
+          right: auto
+          width: 14px
+          height: 100%
 
-  .edsmm_mainLevel > li:hover > .edsmm_subLevel,
-  .edsmm_mainLevel > li:focus-within > .edsmm_subLevel,
-  .edsmm_subLevel > li:hover > .edsmm_subLevel,
-  .edsmm_subLevel > li:focus-within > .edsmm_subLevel
+  .edsmm_menuItem:hover > [class^="edsmm_level_"],
+  .edsmm_menuItem:focus-within > [class^="edsmm_level_"]
     opacity: 1
     visibility: visible
     transform: translateY(0)
 
   @media (max-width: 991.98px)
-    .edsmm_mainLevel
+    .edsmm_root
       display: block
       padding: 6px 0 16px
 
-      > li
+      > .edsmm_menuItem
         display: block
 
-        > .edsmm_itemContainer
+        > span
           display: flex
+          align-items: stretch
+          gap: 0
+
+        > span > .edsmm_itemContainer
+          display: flex
+          flex: 1 1 auto
+          align-items: center
           min-height: 48px
-          justify-content: space-between
           padding: 0 16px
           border-bottom: 1px solid var(--eds-borderColor)
           font-size: 15px
 
-    .edsmm_subLevel
+        > span > .edsmm_childIndicator
+          width: 42px
+          min-height: 48px
+          border-bottom: 1px solid var(--eds-borderColor)
+
+          &::before
+            content: "\f107"
+
+    .edsmm_menuItem > [class^="edsmm_level_"]
       position: static
       opacity: 1
       visibility: visible
@@ -130,14 +183,25 @@
       padding: 0
       display: none
 
-      .edsmm_itemContainer
+      &::before
+        display: none
+
+      .edsmm_menuItem > span > .edsmm_itemContainer
         min-height: 42px
         font-size: 14px
         padding: 0 30px
         border-bottom: 1px solid var(--eds-borderColor)
 
-      .edsmm_subLevel .edsmm_itemContainer
+      .edsmm_menuItem > span > .edsmm_childIndicator
+        width: 36px
+        min-height: 42px
+        border-bottom: 1px solid var(--eds-borderColor)
+
+        &::before
+          content: "\f107"
+
+      .edsmm_menuItem > [class^="edsmm_level_"] .edsmm_menuItem > span > .edsmm_itemContainer
         padding-left: 44px
 
-    .edsmm_hasChild.is-open > .edsmm_subLevel
+    .edsmm_hasChild.is-open > [class^="edsmm_level_"]
       display: block

@@ -29,20 +29,41 @@
 
           <div class="eds_headerZone eds_headerNavZone" id="header-primary-menu">
             <nav class="raMenuWrapper edsmm_mainMenu" aria-label="Primary">
-              <ul class="edsmm_mainLevel">
-                <li class="is-active"><a class="edsmm_itemContainer" href="#">Home</a></li>
-                <li><a class="edsmm_itemContainer" href="#">News</a></li>
-                <li><a class="edsmm_itemContainer" href="#">Electric</a></li>
-                <li class="edsmm_hasChild">
-                  <a class="edsmm_itemContainer" href="#" aria-expanded="false">Features</a>
-                  <ul class="edsmm_subLevel">
-                    <li><a class="edsmm_itemContainer" href="#">Review</a></li>
-                    <li><a class="edsmm_itemContainer" href="#">Road test</a></li>
-                  </ul>
+              <ol class="edsmm_root">
+                <li class="edsmm_menuItem edsmm_first edsmm_active">
+                  <span><a class="edsmm_itemContainer" href="#">Home</a></span>
                 </li>
-                <li><a class="edsmm_itemContainer" href="#">Stories</a></li>
-                <li><a class="edsmm_itemContainer" href="#">About us</a></li>
-              </ul>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">News</a></span>
+                </li>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">Electric</a></span>
+                </li>
+                <li class="edsmm_menuItem edsmm_hasChild">
+                  <span>
+                    <a class="edsmm_itemContainer" href="#" aria-expanded="false">Features</a>
+                    <span class="edsmm_childIndicator"></span>
+                  </span>
+                  <div class="edsmm_level_1">
+                    <div class="edsmm_menuListsContainer">
+                      <ol>
+                        <li class="edsmm_menuItem edsmm_first">
+                          <span><a class="edsmm_itemContainer" href="#">Review</a></span>
+                        </li>
+                        <li class="edsmm_menuItem edsmm_last">
+                          <span><a class="edsmm_itemContainer" href="#">Road test</a></span>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </li>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">Stories</a></span>
+                </li>
+                <li class="edsmm_menuItem edsmm_last">
+                  <span><a class="edsmm_itemContainer" href="#">About us</a></span>
+                </li>
+              </ol>
             </nav>
           </div>
 

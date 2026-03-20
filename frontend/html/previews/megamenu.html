@@ -29,28 +29,62 @@
 
           <div class="eds_headerZone eds_headerNavZone" id="menu-primary">
             <nav class="raMenuWrapper edsmm_mainMenu" aria-label="Primary">
-              <ul class="edsmm_mainLevel">
-                <li><a class="edsmm_itemContainer" href="#">Home</a></li>
-                <li><a class="edsmm_itemContainer" href="#">News</a></li>
-                <li class="edsmm_hasChild is-active">
-                  <a class="edsmm_itemContainer" href="#" aria-expanded="false">Electric</a>
-                  <ul class="edsmm_subLevel">
-                    <li><a class="edsmm_itemContainer" href="#">EV News</a></li>
-                    <li class="edsmm_hasChild">
-                      <a class="edsmm_itemContainer" href="#" aria-expanded="false">Reviews</a>
-                      <ul class="edsmm_subLevel">
-                        <li><a class="edsmm_itemContainer" href="#">Sedan</a></li>
-                        <li><a class="edsmm_itemContainer" href="#">SUV</a></li>
-                        <li><a class="edsmm_itemContainer" href="#">Performance</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="edsmm_itemContainer" href="#">Charging</a></li>
-                  </ul>
+              <ol class="edsmm_root">
+                <li class="edsmm_menuItem edsmm_first">
+                  <span><a class="edsmm_itemContainer" href="#">Home</a></span>
                 </li>
-                <li><a class="edsmm_itemContainer" href="#">Features</a></li>
-                <li><a class="edsmm_itemContainer" href="#">Stories</a></li>
-                <li><a class="edsmm_itemContainer" href="#">About us</a></li>
-              </ul>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">News</a></span>
+                </li>
+                <li class="edsmm_menuItem edsmm_hasChild edsmm_active">
+                  <span>
+                    <a class="edsmm_itemContainer" href="#" aria-expanded="false">Electric</a>
+                    <span class="edsmm_childIndicator"></span>
+                  </span>
+                  <div class="edsmm_level_1">
+                    <div class="edsmm_menuListsContainer">
+                      <ol>
+                        <li class="edsmm_menuItem edsmm_first">
+                          <span><a class="edsmm_itemContainer" href="#">EV News</a></span>
+                        </li>
+                        <li class="edsmm_menuItem edsmm_hasChild">
+                          <span>
+                            <a class="edsmm_itemContainer" href="#" aria-expanded="false">Reviews</a>
+                            <span class="edsmm_childIndicator"></span>
+                          </span>
+                          <div class="edsmm_level_2">
+                            <div class="edsmm_menuListsContainer">
+                              <ol>
+                                <li class="edsmm_menuItem edsmm_first">
+                                  <span><a class="edsmm_itemContainer" href="#">Sedan</a></span>
+                                </li>
+                                <li class="edsmm_menuItem">
+                                  <span><a class="edsmm_itemContainer" href="#">SUV</a></span>
+                                </li>
+                                <li class="edsmm_menuItem edsmm_last">
+                                  <span><a class="edsmm_itemContainer" href="#">Performance</a></span>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="edsmm_menuItem edsmm_last">
+                          <span><a class="edsmm_itemContainer" href="#">Charging</a></span>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </li>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">Features</a></span>
+                </li>
+                <li class="edsmm_menuItem">
+                  <span><a class="edsmm_itemContainer" href="#">Stories</a></span>
+                </li>
+                <li class="edsmm_menuItem edsmm_last">
+                  <span><a class="edsmm_itemContainer" href="#">About us</a></span>
+                </li>
+              </ol>
             </nav>
           </div>
 
