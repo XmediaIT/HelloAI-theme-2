@@ -1906,9 +1906,9 @@ h1, h2, h3, h4, h5, h6 {
 .EasyDNNTheme_HelloAI-theme-2 .eds-processTimelineFeatureBlock__timeline::before {
   content: "";
   position: absolute;
-  top: 12px;
-  bottom: 12px;
-  left: 27px;
+  top: 21px;
+  bottom: 21px;
+  left: 39px;
   width: 2px;
   background: rgba(17, 17, 17, 0.12);
 }
@@ -2129,7 +2129,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-processTimelineFeatureBlock__timeline::before {
-    left: 20px;
+    display: none;
   }
   .EasyDNNTheme_HelloAI-theme-2 .eds-processTimelineFeatureBlock__step {
     grid-template-columns: 1fr;
