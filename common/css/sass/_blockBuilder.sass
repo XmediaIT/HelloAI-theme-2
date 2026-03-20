@@ -1365,6 +1365,7 @@
       display: grid
       gap: 42px
       padding-left: 18px
+      counter-reset: eds-process-step
 
       &::before
         content: ""
@@ -1381,6 +1382,7 @@
       grid-template-columns: 104px 1fr
       gap: 24px
       align-items: start
+      counter-increment: eds-process-step
       opacity: 0
       transform: translateY(28px)
       animation: edsProcessFadeIn .7s ease-out forwards
@@ -1394,9 +1396,9 @@
       &:nth-child(4)
         animation-delay: .36s
 
-      &:hover .eds-processTimelineFeatureBlock__stepNumber,
+      &:hover .eds-processTimelineFeatureBlock__stepMarker::before,
       &:hover .eds-processTimelineFeatureBlock__stepIcon,
-      &:focus-within .eds-processTimelineFeatureBlock__stepNumber,
+      &:focus-within .eds-processTimelineFeatureBlock__stepMarker::before,
       &:focus-within .eds-processTimelineFeatureBlock__stepIcon
         border-color: var(--eds-primaryColor)
         color: var(--eds-primaryColor)
@@ -1412,8 +1414,25 @@
       align-items: center
       gap: 14px
       z-index: 1
+      
+      &::before
+        content: counter(eds-process-step)
+        width: 42px
+        height: 42px
+        border-radius: 50%
+        border: 2px solid rgba(17, 17, 17, .16)
+        background: var(--eds-whiteColor)
+        color: var(--eds-darkColor)
+        font-family: var(--eds_headingsFont)
+        font-size: 22px
+        line-height: 1
+        font-weight: 700
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        flex: 0 0 42px
+        transition: border-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease
 
-    &__stepNumber,
     &__stepIcon
       width: 42px
       height: 42px
@@ -1423,14 +1442,8 @@
       display: inline-flex
       align-items: center
       justify-content: center
+      flex: 0 0 42px
       transition: border-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease
-
-    &__stepNumber
-      color: var(--eds-darkColor)
-      font-family: var(--eds_headingsFont)
-      font-size: 22px
-      line-height: 1
-      font-weight: 700
 
     &__stepIcon
       color: var(--eds-mutedText)
@@ -1638,7 +1651,7 @@
     .eds-processTimelineFeatureBlock__image,
     .eds-processTimelineFeatureBlock__cardOverlay,
     .eds-processTimelineFeatureBlock__button,
-    .eds-processTimelineFeatureBlock__stepNumber,
+    .eds-processTimelineFeatureBlock__stepMarker::before,
     .eds-processTimelineFeatureBlock__stepIcon,
     .eds-processTimelineFeatureBlock__stepTitle
       transition: none
