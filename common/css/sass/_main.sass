@@ -1,2 +1,184 @@
 .eds_main
   min-height: 54vh
+
+.EasyDNNTheme_HelloAI-theme-2
+  .eds-newsMosaicBlock
+    background: var(--eds-softBg)
+    padding: 88px 0 96px
+
+  .eds-newsMosaicBlock__headingWrap
+    margin-bottom: 34px
+
+  .eds-newsMosaicBlock__eyebrow
+    margin: 0 0 10px
+    text-transform: uppercase
+    letter-spacing: .08em
+    font-weight: 600
+    color: var(--eds-primaryColor)
+
+  .eds-newsMosaicBlock__heading
+    margin: 0
+    color: var(--eds-darkColor)
+    font-size: clamp(2rem, 3vw, 2.6rem)
+
+  .eds-newsMosaicBlock__feature
+    margin-bottom: 42px
+
+  .eds-newsMosaicBlock__secondaryRow
+    margin-bottom: 38px
+
+  .eds-newsMosaicBlock__card,
+  .eds-newsMosaicBlock__compactCard
+    position: relative
+
+  .eds-newsMosaicBlock__imageLink,
+  .eds-newsMosaicBlock__compactImageLink,
+  .eds-newsMosaicBlock__title a,
+  .eds-newsMosaicBlock__compactTitle a
+    display: block
+
+  .eds-newsMosaicBlock__image,
+  .eds-newsMosaicBlock__compactImage
+    width: 100%
+    object-fit: cover
+
+  .eds-newsMosaicBlock__image
+    height: clamp(260px, 45vw, 580px)
+
+  .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__image
+    height: clamp(220px, 30vw, 380px)
+
+  .eds-newsMosaicBlock__content
+    background: var(--eds-whiteColor)
+    border-left: 8px solid var(--eds-primaryColor)
+    margin: -54px 30px 0
+    padding: 22px 24px
+    position: relative
+    z-index: 2
+
+  .eds-newsMosaicBlock__meta
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    gap: 10px 18px
+    margin-bottom: 10px
+
+  .eds-newsMosaicBlock__tag
+    color: var(--eds-primaryColor)
+    text-transform: uppercase
+    letter-spacing: .05em
+    font-weight: 600
+    font-size: .95rem
+
+  .eds-newsMosaicBlock__date
+    color: var(--eds-mutedText)
+    font-weight: 600
+
+  .eds-newsMosaicBlock__title,
+  .eds-newsMosaicBlock__compactTitle
+    margin: 0
+    font-weight: 700
+    color: var(--eds-darkColor)
+
+  .eds-newsMosaicBlock__title
+    font-size: clamp(1.5rem, 2.6vw, 2.8rem)
+    line-height: 1.08
+
+  .eds-newsMosaicBlock__title--feature
+    max-width: 26ch
+
+  .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__title
+    font-size: clamp(1.26rem, 2vw, 2.2rem)
+
+  .eds-newsMosaicBlock__compactCard
+    background: var(--eds-whiteColor)
+    display: flex
+    min-height: 126px
+
+  .eds-newsMosaicBlock__compactImageLink
+    flex: 0 0 120px
+
+  .eds-newsMosaicBlock__compactImage
+    height: 100%
+    min-height: 126px
+
+  .eds-newsMosaicBlock__compactContent
+    flex: 1 1 auto
+    padding: 12px 14px
+
+  .eds-newsMosaicBlock__compactTitle
+    margin-top: 8px
+    font-size: 1.7rem
+    line-height: 1.16
+
+  .eds-newsMosaicBlock__imageLink,
+  .eds-newsMosaicBlock__compactImageLink,
+  .eds-newsMosaicBlock__title a,
+  .eds-newsMosaicBlock__compactTitle a
+    transition: opacity .22s ease
+
+  .eds-newsMosaicBlock__imageLink:hover,
+  .eds-newsMosaicBlock__imageLink:focus-visible,
+  .eds-newsMosaicBlock__compactImageLink:hover,
+  .eds-newsMosaicBlock__compactImageLink:focus-visible,
+  .eds-newsMosaicBlock__title a:hover,
+  .eds-newsMosaicBlock__title a:focus-visible,
+  .eds-newsMosaicBlock__compactTitle a:hover,
+  .eds-newsMosaicBlock__compactTitle a:focus-visible
+    opacity: .86
+
+@media (max-width: 1199.98px)
+  .EasyDNNTheme_HelloAI-theme-2
+    .eds-newsMosaicBlock
+      padding: 74px 0 82px
+
+    .eds-newsMosaicBlock__content
+      margin: -48px 22px 0
+
+    .eds-newsMosaicBlock__compactImageLink
+      flex-basis: 110px
+
+@media (max-width: 991.98px)
+  .EasyDNNTheme_HelloAI-theme-2
+    .eds-newsMosaicBlock
+      padding: 64px 0 72px
+
+    .eds-newsMosaicBlock__feature,
+    .eds-newsMosaicBlock__secondaryRow
+      margin-bottom: 26px
+
+    .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__image
+      height: clamp(240px, 45vw, 360px)
+
+    .eds-newsMosaicBlock__compactTitle
+      font-size: 1.45rem
+
+@media (max-width: 575.98px)
+  .EasyDNNTheme_HelloAI-theme-2
+    .eds-newsMosaicBlock
+      padding: 56px 0 62px
+
+    .eds-newsMosaicBlock__headingWrap
+      margin-bottom: 26px
+
+    .eds-newsMosaicBlock__content
+      margin: -42px 14px 0
+      padding: 18px 16px
+
+    .eds-newsMosaicBlock__meta
+      gap: 8px 12px
+
+    .eds-newsMosaicBlock__title
+      font-size: clamp(1.2rem, 8vw, 2rem)
+
+    .eds-newsMosaicBlock__compactCard
+      min-height: 112px
+
+    .eds-newsMosaicBlock__compactImageLink
+      flex-basis: 100px
+
+    .eds-newsMosaicBlock__compactImage
+      min-height: 112px
+
+    .eds-newsMosaicBlock__compactTitle
+      font-size: 1.22rem
