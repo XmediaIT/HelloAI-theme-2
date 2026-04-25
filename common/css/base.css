@@ -2253,3 +2253,186 @@ h1, h2, h3, h4, h5, h6 {
     transition: none;
   }
 }
+
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock {
+  background: var(--eds-softBg);
+  padding: 88px 0 96px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__headingWrap {
+  margin-bottom: 34px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__eyebrow {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--eds-primaryColor);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__heading {
+  margin: 0;
+  color: var(--eds-darkColor);
+  font-size: clamp(2rem, 3vw, 2.6rem);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__feature {
+  margin-bottom: 42px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__secondaryRow {
+  margin-bottom: 38px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__card,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactCard {
+  position: relative;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__imageLink,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title a,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle a {
+  display: block;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__image,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImage {
+  width: 100%;
+  object-fit: cover;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__image {
+  height: clamp(260px, 45vw, 580px);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__image {
+  height: clamp(220px, 30vw, 380px);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__content {
+  background: var(--eds-whiteColor);
+  border-left: 8px solid var(--eds-primaryColor);
+  margin: -54px 30px 0;
+  padding: 22px 24px;
+  position: relative;
+  z-index: 2;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 10px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__tag {
+  color: var(--eds-primaryColor);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__date {
+  color: var(--eds-mutedText);
+  font-weight: 600;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle {
+  margin: 0;
+  font-weight: 700;
+  color: var(--eds-darkColor);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title {
+  font-size: clamp(1.5rem, 2.6vw, 2.8rem);
+  line-height: 1.08;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title--feature {
+  max-width: 26ch;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__title {
+  font-size: clamp(1.26rem, 2vw, 2.2rem);
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactCard {
+  background: var(--eds-whiteColor);
+  display: flex;
+  min-height: 126px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink {
+  flex: 0 0 120px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImage {
+  height: 100%;
+  min-height: 126px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactContent {
+  flex: 1 1 auto;
+  padding: 12px 14px;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle {
+  margin-top: 8px;
+  font-size: 1.7rem;
+  line-height: 1.16;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__imageLink,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title a,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle a {
+  transition: opacity 0.22s ease;
+}
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__imageLink:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__imageLink:focus-visible,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink:focus-visible,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title a:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title a:focus-visible,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle a:hover,
+.EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle a:focus-visible {
+  opacity: 0.86;
+}
+
+@media (max-width: 1199.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock {
+    padding: 74px 0 82px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__content {
+    margin: -48px 22px 0;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink {
+    flex-basis: 110px;
+  }
+}
+@media (max-width: 991.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock {
+    padding: 64px 0 72px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__feature,
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__secondaryRow {
+    margin-bottom: 26px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__card--secondary .eds-newsMosaicBlock__image {
+    height: clamp(240px, 45vw, 360px);
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle {
+    font-size: 1.45rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock {
+    padding: 56px 0 62px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__headingWrap {
+    margin-bottom: 26px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__content {
+    margin: -42px 14px 0;
+    padding: 18px 16px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__meta {
+    gap: 8px 12px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__title {
+    font-size: clamp(1.2rem, 8vw, 2rem);
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactCard {
+    min-height: 112px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImageLink {
+    flex-basis: 100px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactImage {
+    min-height: 112px;
+  }
+  .EasyDNNTheme_HelloAI-theme-2 .eds-newsMosaicBlock__compactTitle {
+    font-size: 1.22rem;
+  }
+}
